@@ -53,6 +53,16 @@ Alınan kararlar: Whatsapp üzerinden daily toplantıları plandı. Proje takibi
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
 - **Diğer Notlar**:
+- Ürün görselleri:
+
+- ![WhatsApp Image 2024-07-10 at 22 15 35 (1)](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/fbc5e654-2f46-4e4b-9999-473e5f7cbc57)
+
+- ![WhatsApp Image 2024-07-10 at 22 15 08](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/5cb4ea64-ced1-4122-87f4-7af246c54b01)
+- ![WhatsApp Image 2024-07-10 at 22 15 20](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/69686e75-836a-4e6b-b3d0-0b39e8faabb1)
+
+- 
+
+   
 
 ---
 
