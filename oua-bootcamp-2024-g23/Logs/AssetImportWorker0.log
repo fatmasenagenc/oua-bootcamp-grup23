@@ -15,7 +15,7 @@ C:/Users/Emre/OneDrive/Belgeler/GitHub/oua-bootcamp-grup23/oua-bootcamp-2024-g23
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50809
+56001
 Successfully changed project path to: C:/Users/Emre/OneDrive/Belgeler/GitHub/oua-bootcamp-grup23/oua-bootcamp-2024-g23
 C:/Users/Emre/OneDrive/Belgeler/GitHub/oua-bootcamp-grup23/oua-bootcamp-2024-g23
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Emre/OneDrive/Belgeler/GitHub/oua-bootcamp-grup23/oua-bootcamp-2024-g23
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19260] Host "[IP] 192.168.1.38 [Port] 0 [Flags] 2 [Guid] 3092664582 [EditorId] 3092664582 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V3E4VCU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25120] Host "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 62561918 [EditorId] 62561918 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V3E4VCU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19260] Host "[IP] 192.168.1.38 [Port] 0 [Flags] 2 [Guid] 3092664582 [EditorId] 3092664582 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V3E4VCU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25120] Host "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 62561918 [EditorId] 62561918 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V3E4VCU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 8.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.36f1 (95a4219250e5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Resources/UnitySubsystems
@@ -64,53 +64,53 @@ Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a5)
     Vendor:   NVIDIA
-    VRAM:     3991 MB
-    Driver:   31.0.15.1640
+    VRAM:     3977 MB
+    Driver:   31.0.15.4680
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009928 seconds.
-- Loaded All Assemblies, in  0.585 seconds
+Registered in 0.007618 seconds.
+- Loaded All Assemblies, in  0.409 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 641 ms
+Android Extension - Scanning For ADB Devices 417 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.138 seconds
-Domain Reload Profiling: 1721ms
-	BeginReloadAssembly (180ms)
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 1200ms
+	BeginReloadAssembly (125ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (234ms)
-		LoadAssemblies (180ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (227ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (204ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1138ms)
+	FinalizeReload (793ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1054ms)
+		SetupLoadedEditorAssemblies (723ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (790ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (532ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (182ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,62 @@ Domain Reload Profiling: 1721ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.163 seconds
-Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
+Symbol file data-00000281791B1A20 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B789D20 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817ABE6020 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817BD59AD0 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B789D20 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817AC2D230 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281791FB030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B420060 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817ADBA020 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817AC50240 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281791FB030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817AACA010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B420060 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028179206240 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817A82A070 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817AE01840 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817AE01840 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817907A860 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817907A860 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817AB38620 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B054020 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281799B3A20 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028179206240 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028179206240 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281790CE280 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B2D5010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B32DC20 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.839 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -127,48 +181,387 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.144 seconds
-Domain Reload Profiling: 2307ms
-	BeginReloadAssembly (269ms)
+- Finished resetting the current domain, in  0.798 seconds
+Domain Reload Profiling: 1635ms
+	BeginReloadAssembly (207ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (448ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (160ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (423ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (57.6 KB). Loaded Objects now: 3559.
+Memory consumption went from 124.7 MB to 124.7 MB.
+Total: 4.505600 ms (FindLiveObjects: 0.513700 ms CreateObjectMapping: 0.310100 ms MarkObjects: 3.511900 ms  DeleteObjects: 0.167500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 859430.444974 seconds.
+  path: Assets/Assets/Mess Maker Free
+  artifactKey: Guid(9676151ec87433c4a990e5e19b7208cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Mess Maker Free using Guid(9676151ec87433c4a990e5e19b7208cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5249abff043986bb2b7ba2ed4808e0a7') in 0.004224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets/Backrock Studios
+  artifactKey: Guid(5873319b8048a9f4fa302d5fa2db0065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Backrock Studios using Guid(5873319b8048a9f4fa302d5fa2db0065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca5182ef7c8b7606ba44299784a0ee76') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets
+  artifactKey: Guid(4264dd3450807064f9b5cb4b8222f560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets using Guid(4264dd3450807064f9b5cb4b8222f560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3985dbb09fbde7b6ca9d830cfaced51a') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.401033 seconds.
+  path: Assets/Assets/PolyAngel-Mini Pirates Island
+  artifactKey: Guid(d48421cd1fc4cf044b80345fc1f0e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/PolyAngel-Mini Pirates Island using Guid(d48421cd1fc4cf044b80345fc1f0e059) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2c66b7f75f948088770048d5cfaa4713') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.871657 seconds.
+  path: Assets/Assets/Yeni klasör (6)
+  artifactKey: Guid(64e16c0441aed7b43b9dd66e1bec2114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Yeni klasör (6) using Guid(64e16c0441aed7b43b9dd66e1bec2114) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d8ee29cd3f925f03a86c0d20be06514') in 0.000781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.712521 seconds.
+  path: Assets/Scenes/SampleScene_Profiles
+  artifactKey: Guid(6aeedba8f7965734a92d17b0dbc7db5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene_Profiles using Guid(6aeedba8f7965734a92d17b0dbc7db5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce823afa9c5ae0489d05f76a809df200') in 0.000664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.445216 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(ff85c5430a4d1a34c963902521cf05aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ff85c5430a4d1a34c963902521cf05aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd763983a0f86530acb8c2e6cf898d2cc') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.421192 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(1910c22926e579c4ca281b13bcc54812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(1910c22926e579c4ca281b13bcc54812) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1906923bcf408a5f7ff332ca593f6dbd') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.232406 seconds.
+  path: Assets/Materials/Stylize Water Texture
+  artifactKey: Guid(d92bf76cc3db3644cae41e9e7d0827c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylize Water Texture using Guid(d92bf76cc3db3644cae41e9e7d0827c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce0b0aa64c283794cb0cc180eb99757e') in 0.000629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.597863 seconds.
+  path: Assets/Materials/Stylize Water Texture/Materials
+  artifactKey: Guid(118b26681dbfaec48920648a30a981ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Stylize Water Texture/Materials using Guid(118b26681dbfaec48920648a30a981ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '51a6f1a444cde975311dd6c64869797f') in 0.000630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000002817B947010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028179718030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC413E040 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817A782630 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817A782630 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC413E040 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC5EAB010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028179718030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817C686050 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC5EAB010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817A5B4020 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC3666010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B4F2010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028179718030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028179718030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC5EAB010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817C2EAF70 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC3E61010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028135320B10 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281355B5460 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817918A010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281355B5460 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC36D4620 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC36D4620 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC56AB8B0 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC35D0080 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC35D0080 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.555 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.165 seconds
+Domain Reload Profiling: 1718ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (370ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1166ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (356ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.7 KB). Loaded Objects now: 3567.
+Memory consumption went from 122.9 MB to 122.9 MB.
+Total: 3.218100 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.114300 ms MarkObjects: 2.737300 ms  DeleteObjects: 0.069000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33.762885 seconds.
+  path: Assets/Scenes/yüzenbalık.unity
+  artifactKey: Guid(666a37763fc561644a84781fa0437bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/yüzenbalık.unity using Guid(666a37763fc561644a84781fa0437bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2854a69bb35b55d47b9914e3da73ec30') in 0.002793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028178CE3010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817BE5F010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC6091280 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817BE5F010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC5D1C280 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC3922010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817B116440 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC5CDFE60 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817C686050 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC5EAB010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817944E440 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC3F79050 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028179A67740 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC457B030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC457B030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC5EAB010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817C2EAF70 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817907A860 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC3BF8030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002817944E440 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028135437040 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000281355B5460 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC457B030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC457B030 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC5B933C0 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC413E040 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000027FC3922010 doesn't match image C:\Users\Emre\OneDrive\Belgeler\GitHub\oua-bootcamp-grup23\oua-bootcamp-2024-g23\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.535 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.384 seconds
+Domain Reload Profiling: 1918ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (72ms)
-	LoadAllAssembliesAndSetupDomain (746ms)
-		LoadAssemblies (648ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (298ms)
+		LoadAssemblies (356ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (207ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1147ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1385ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (825ms)
+		SetupLoadedEditorAssemblies (681ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
+			InitializePlatformSupportModulesInManaged (38ms)
 			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (117ms)
-			ProcessInitializeOnLoadAttributes (607ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (462ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 4.56 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3096 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (58.0 KB). Loaded Objects now: 3559.
-Memory consumption went from 124.8 MB to 124.7 MB.
-Total: 6.788800 ms (FindLiveObjects: 0.551200 ms CreateObjectMapping: 0.185200 ms MarkObjects: 5.712800 ms  DeleteObjects: 0.334900 ms)
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (31.8 KB). Loaded Objects now: 3570.
+Memory consumption went from 122.9 MB to 122.9 MB.
+Total: 4.066500 ms (FindLiveObjects: 0.380100 ms CreateObjectMapping: 0.120700 ms MarkObjects: 3.489600 ms  DeleteObjects: 0.074900 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 

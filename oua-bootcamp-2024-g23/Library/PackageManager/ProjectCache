@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638561482976985050
+      ticks: 638570126612278990
     m_Hash: 2190083524
   m_LockFileStatus:
     m_FilePath: C:/Users/Emre/OneDrive/Belgeler/GitHub/oua-bootcamp-grup23/oua-bootcamp-2024-g23/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638561482976996688
+      ticks: 638570126612289308
     m_Hash: 776563695
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -36,7 +36,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
+  type: assets
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting https://unity.com/solutions/version-control
@@ -147,7 +147,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 638549067850000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.4/manual/index.html
   hasRepository: 1
   repository:
@@ -389,6 +389,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.7
     - 3.2.0-pre.8
     - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -405,6 +406,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.7
     - 3.2.0-pre.8
     - 3.2.0-pre.9
+    - 3.2.0-pre.10
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.9
@@ -558,6 +560,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
+    - 1.8.7
     compatible:
     - 1.7.6
     - 1.8.0
@@ -567,6 +570,7 @@ m_ResolvedPackages:
     - 1.8.4
     - 1.8.5
     - 1.8.6
+    - 1.8.7
     recommended: 1.7.6
     deprecated: []
   dependencies:
@@ -2879,9 +2883,11 @@ m_ResolvedPackages:
     - 3.0.26
     - 3.0.27
     - 3.0.28
+    - 3.0.31
     compatible:
     - 3.0.28
-    recommended: 3.0.28
+    - 3.0.31
+    recommended: 3.0.31
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
