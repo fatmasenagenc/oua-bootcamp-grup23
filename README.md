@@ -100,6 +100,6 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 - ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina2.jpeg)
 - ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/cevre1.jpeg)
 - [Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/charMove.mp4)
-- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/char1.png)
+- ![Oyun Videosu](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/char1.png)
 - [Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/charMove2.mp4)
-- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/char2.png)
+- ![Oyun Videosu](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/char2.png)
