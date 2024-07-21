@@ -360,6 +360,8 @@
 "Assets/Assets/Mess Maker Free/Scripts/SimpleCamControl.cs"
 "Assets/Assets/Mess Maker Free/Scripts/SimpleController.cs"
 "Assets/Scripts/CharacterMovement.cs"
+"Assets/Whale3D/Script/BaseMesh.cs"
+"Assets/Whale3D/Script/PlayANim.cs"
 -langversion:9.0
 /deterministic
 /optimize-
