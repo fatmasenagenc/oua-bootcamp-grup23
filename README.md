@@ -27,10 +27,11 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 —-
-#Sprint 1
+# Sprint 1
 **Sprint Notları**: User Storylerimizi ve alakalı görevlerin takibini Trello üzerinden yapıyoruz. 
 **Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
-**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken tahmini 400 puanlık backlog oluşacağını öngörüyoruz. Toplam dört sprint düşünüldüğünde, her sprintte ortalama 100 puan tamamlamayı hedefliyoruz.
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken tahmini 300 puanlık backlog oluşacağını öngörüyoruz. Toplam üç sprint düşünüldüğünde, her sprintte ortalama 100 puan tamamlamayı hedefliyoruz.
+**Sprint içinde tamamlanan puan**: 100 puan
 - **Backlog düzeni ve Story seçimleri**: User Storylerimizi onlara özel bir liste içerisinde trello kartları olarak tutuyoruz. Her bir story için renk kodlu bir label oluşturduk. Backlogdaki taskleri de hangi story’e aitlerse o storynin labelı ile işaretliyoruz. Ekip üyeleri üzerinde çalışacakları taskleri Üzerinde Çalışılanlar listesine taşıyor.
 
 
@@ -48,21 +49,43 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 ![Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/6temmuz.png)
 
 - **Sprint Review**: 
-Alınan kararlar: Whatsapp üzerinden daily toplantıları plandı. Proje takibimizi trello üzerinden yapılacak. Unity versiyonu olarak 2022.3.36f1 kullanmaya karar verdik.
- Sprint Review katılımcıları: Bütün ekip
+- **Sprint Review katılımcıları**: Bütün ekip
+- **Alınan kararlar**: Whatsapp üzerinden daily toplantıları plandı. Proje takibimizi trello üzerinden yapılacak. Unity versiyonu olarak 2022.3.36f1 kullanmaya karar verdik.
+
 - **Sprint Retrospective:**
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır
-- **Diğer Notlar**:
-- Oyun görselleri:
+- **Diğer Notlar**: Yok.
 
-- ![WhatsApp Image 2024-07-10 at 22 15 35 (1)](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/fbc5e654-2f46-4e4b-9999-473e5f7cbc57)
+- **Oyun Görselleri**:
+- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/fbc5e654-2f46-4e4b-9999-473e5f7cbc57)
 
-- ![WhatsApp Image 2024-07-10 at 22 15 08](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/5cb4ea64-ced1-4122-87f4-7af246c54b01)
-- ![WhatsApp Image 2024-07-10 at 22 15 20](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/69686e75-836a-4e6b-b3d0-0b39e8faabb1)
+- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/5cb4ea64-ced1-4122-87f4-7af246c54b01)
 
-- 
+- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/assets/53142970/69686e75-836a-4e6b-b3d0-0b39e8faabb1)
 
-   
 
 ---
 
+# Sprint 2
+**Sprint Notları**: Daily Scrum toplantılarını Whatsapp saat 20:00 da yapmaya karar verdik, grup sesli sohbet üzerinde gerçekleştirilecek.
+**Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken tahmini 300 puanlık backlog oluşacağını öngörüyoruz. Toplam üç sprint düşünüldüğünde, her sprintte ortalama 100 puan tamamlamayı hedefliyoruz.
+**Sprint içinde tamamlanan puan**: 90 puan
+
+
+- **Daily Scrum**: Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp üzerinden sesli grup sohbeti şeklinde yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
+![Sprint 2 Daily Scrum Chats]()
+![Sprint 2 Daily Scrum Chats]()
+
+- **Sprint Review**: 
+- **Sprint Review katılımcıları**: Bütün ekip
+- **Alınan kararlar**: Ekip içindeki görev dağılımı ve sorumluluklar tekrar gözden geçirilecek. Ekibin daha verimli çalışabilmesi için ekip içi iletişim arttırılacak. Ekip içinde daha fazla yardımlaşma ve dayanışma sağlanacak. Ekibin daha iyi bir şekilde çalışabilmesi için ekip içi toplantılar daha sık yapılacak.
+
+- **Sprint Retrospective:**
+  - Takım içindeki ekip üyelerin günlük yaşamındaki istenmeyen zorluklardan dolayı oluşan aksaklıkların giderilmesi için ekip içi toplantılar daha sık yapılacak. Ekip içindeki görev dağılımına destek olunması için ekip içi yardımlaşma ve dayanışma sağlanacak.
+- **Diğer Notlar**: Ekip olarak hem mental hemde fiziksel zorluklar yaşadık. Bu zorluklarımızı aşmak için ekip içi daha eğlenceli etkinlikler yapmaya karar verdik. Bu etkinliklerimiz sayesinde ekip içi iletişimimizi arttırmayı hedefliyoruz. 
+
+- **Oyun Görselleri**:
+
+- ![Oyun Görselleri]()
+- ![Oyun Görselleri]()
