@@ -77,14 +77,14 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 
 - **Daily Scrum**: Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp üzerinden sesli grup sohbeti şeklinde yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
-![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı1.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti1.jpeg)
 ![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti2.png)
-![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı3.jpeg)
-![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı4.jpeg)
-![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı5.jpeg)
-![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı6.jpeg)
-![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı7.jpeg)
-![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı8.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti3.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti4.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti5.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti6.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti7.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti8.jpeg)
 
 - **Sprint Review**: 
 - **Sprint Review katılımcıları**: Bütün ekip
