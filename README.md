@@ -33,6 +33,8 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken tahmini 300 puanlık backlog oluşacağını öngörüyoruz. Toplam üç sprint düşünüldüğünde, her sprintte ortalama 100 puan tamamlamayı hedefliyoruz.
 **Sprint içinde tamamlanan puan**: 100 puan
 - **Backlog düzeni ve Story seçimleri**: User Storylerimizi onlara özel bir liste içerisinde trello kartları olarak tutuyoruz. Her bir story için renk kodlu bir label oluşturduk. Backlogdaki taskleri de hangi story’e aitlerse o storynin labelı ile işaretliyoruz. Ekip üyeleri üzerinde çalışacakları taskleri Üzerinde Çalışılanlar listesine taşıyor.
+## Product Backlog URL
+[Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
@@ -71,11 +73,18 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 **Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
 **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken tahmini 300 puanlık backlog oluşacağını öngörüyoruz. Toplam üç sprint düşünüldüğünde, her sprintte ortalama 100 puan tamamlamayı hedefliyoruz.
 **Sprint içinde tamamlanan puan**: 90 puan
-
+## Product Backlog URL
+[Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 
 - **Daily Scrum**: Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp üzerinden sesli grup sohbeti şeklinde yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
-![Sprint 2 Daily Scrum Chats]()
-![Sprint 2 Daily Scrum Chats]()
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı1.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti2.png)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı3.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı4.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı5.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı6.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı7.jpeg)
+![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplantı8.jpeg)
 
 - **Sprint Review**: 
 - **Sprint Review katılımcıları**: Bütün ekip
@@ -87,5 +96,8 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 
 - **Oyun Görselleri**:
 
-- ![Oyun Görselleri]()
-- ![Oyun Görselleri]()
+- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg)
+- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina2.jpeg)
+- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/cevre1.jpeg)
+- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/charMove.mp4)
+- ![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/charMove2.mp4)
