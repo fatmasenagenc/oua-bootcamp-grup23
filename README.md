@@ -35,17 +35,17 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
-[Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/15haziran.png)
+![Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/15haziran.png)
 
-[Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/18haziran1.png)
+![Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/18haziran1.png)
 
-[Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/18haziran2.png)
+![Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/18haziran2.png)
 
-[Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/30haziran.png)
+![Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/30haziran.png)
 
-[Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/30haziran2.png)
+![Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/30haziran2.png)
 
-[Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/6temmuz.png)
+![Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/6temmuz.png)
 
 - **Sprint Review**: 
 Alınan kararlar: Whatsapp üzerinden daily toplantıları plandı. Proje takibimizi trello üzerinden yapılacak. Unity versiyonu olarak 2022.3.36f1 kullanmaya karar verdik.
