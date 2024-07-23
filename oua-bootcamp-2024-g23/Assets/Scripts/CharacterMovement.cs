@@ -36,14 +36,12 @@ public class CharacterController : MonoBehaviour
 
     void MoveUp()
     {
-        transform.Rotate(Vector3.left, rotationSpeed * Time.deltaTime);
-        
+        transform.Translate(Vector3.up * moveSpeed * Time.deltaTime);
     }
 
     void MoveDown()
     {
-        transform.Rotate(Vector3.right, rotationSpeed * Time.deltaTime);
-        
+        transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
     }
 
     void RotateLeft()

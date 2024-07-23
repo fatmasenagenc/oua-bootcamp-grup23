@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - rubbish
+  - "charactera\u011F\u0131z"
   layers:
   - Default
   - TransparentFX
