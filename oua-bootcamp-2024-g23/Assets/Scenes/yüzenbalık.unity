@@ -127,6 +127,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
   m_PrefabInstance: {fileID: 1195042606}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &2181167 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
+  m_PrefabInstance: {fileID: 1793328779}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4378992
 GameObject:
   m_ObjectHideFlags: 0
@@ -430,6 +435,10 @@ PrefabInstance:
     - target: {fileID: 10657068676566687, guid: 53b998b81d704474e9ecb43206adecad, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Red with Blank Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: 53b998b81d704474e9ecb43206adecad, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 53b998b81d704474e9ecb43206adecad, type: 3}
       propertyPath: m_LocalScale.x
@@ -777,6 +786,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 1195570503}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &29111368 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+  m_PrefabInstance: {fileID: 189394457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &29550033
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,6 +1016,10 @@ PrefabInstance:
     - target: {fileID: 8412863031436712038, guid: f0c34ecd5a4753b4d90d4d34e6946b5b, type: 3}
       propertyPath: m_Name
       value: Pint Glass (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8412863031436712038, guid: f0c34ecd5a4753b4d90d4d34e6946b5b, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1256,6 +1274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-white (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1360,10 +1382,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: tomato-slice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1582448808}
   m_SourcePrefab: {fileID: 100100000, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
 --- !u!4 &63090484 stripped
 Transform:
@@ -1376,19 +1405,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -296.33
+      value: -309.4327
       objectReference: {fileID: 0}
     - target: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.76
+      value: -0.79631793
       objectReference: {fileID: 0}
     - target: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.71805
+      value: -271.58124
       objectReference: {fileID: 0}
     - target: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1396,15 +1425,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1422,6 +1451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Can Green Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 3417596192309181735, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1438,23 +1471,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Red with Label
       objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -303.36
+      value: -316.4627
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.35
+      value: -1.3863178
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -271.4
+      value: -274.26318
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1462,15 +1499,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1657,10 +1694,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: carton-small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b8942c399729dc4887701d800a85a4e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b8942c399729dc4887701d800a85a4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1667658565}
   m_SourcePrefab: {fileID: 100100000, guid: 1b8942c399729dc4887701d800a85a4e, type: 3}
 --- !u!1 &78186146
 GameObject:
@@ -1725,6 +1769,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.50215304, y: 0.2733658, z: 0.5798364}
   m_Center: {x: 0, y: 0.13668287, z: 0.0000038146973}
+--- !u!1 &80236324 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+  m_PrefabInstance: {fileID: 598687819}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &82781007 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d015c39f1b1ab5c49adfc9b27b11dcae, type: 3}
@@ -2064,6 +2113,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Red with Label
       objectReference: {fileID: 0}
+    - target: {fileID: 4179343635334113613, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2312,10 +2365,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soda-can-crushed (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1737108585}
   m_SourcePrefab: {fileID: 100100000, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
 --- !u!4 &121668004 stripped
 Transform:
@@ -2338,6 +2398,10 @@ PrefabInstance:
     - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green Broke
+      objectReference: {fileID: 0}
+    - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2552,6 +2616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pot-lid
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2689,6 +2757,10 @@ PrefabInstance:
     - target: {fileID: 937326242163579350, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_Name
       value: Beer Can Blue Crushed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 937326242163579350, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalScale.x
@@ -2845,6 +2917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2907,6 +2983,10 @@ PrefabInstance:
     - target: {fileID: 10657068676566687, guid: cbce813fb81b1454f932fcd8872f015a, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: cbce813fb81b1454f932fcd8872f015a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: cbce813fb81b1454f932fcd8872f015a, type: 3}
       propertyPath: m_LocalScale.x
@@ -3065,6 +3145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Can Green Crushed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3417596192309181735, guid: abc805df2245a814aacfab1c9341525e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3148,6 +3232,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!1 &167002989 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8abe4494ee0c31f47b6c6c6631dd9c0b, type: 3}
+  m_PrefabInstance: {fileID: 658456973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &168756166
 GameObject:
   m_ObjectHideFlags: 0
@@ -3196,6 +3285,10 @@ PrefabInstance:
     - target: {fileID: 531162568926729478, guid: a4bc6c888d501594b815ad51f8e7f7a2, type: 3}
       propertyPath: m_Name
       value: Beer Bottle Green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 531162568926729478, guid: a4bc6c888d501594b815ad51f8e7f7a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1836693006545311995, guid: a4bc6c888d501594b815ad51f8e7f7a2, type: 3}
       propertyPath: m_LocalScale.x
@@ -3318,6 +3411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-white (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3419,6 +3516,10 @@ PrefabInstance:
     - target: {fileID: 631681890585385247, guid: 5035be92e850c9e4ca48d390cf0fd7e8, type: 3}
       propertyPath: m_Name
       value: Beer Bottle Green with Blank Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 631681890585385247, guid: 5035be92e850c9e4ca48d390cf0fd7e8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1650006661591258338, guid: 5035be92e850c9e4ca48d390cf0fd7e8, type: 3}
       propertyPath: m_LocalScale.x
@@ -3551,15 +3652,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2054967536}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 500
+      value: 500.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 500
+      value: 500.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.z
@@ -3567,15 +3668,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -142.6
+      value: 155.41998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.96
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 301
+      value: 467.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3681,6 +3782,10 @@ PrefabInstance:
     - target: {fileID: 8412863031436712038, guid: f0c34ecd5a4753b4d90d4d34e6946b5b, type: 3}
       propertyPath: m_Name
       value: Pint Glass
+      objectReference: {fileID: 0}
+    - target: {fileID: 8412863031436712038, guid: f0c34ecd5a4753b4d90d4d34e6946b5b, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4363,10 +4468,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soda-can-crushed (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1328817333}
   m_SourcePrefab: {fileID: 100100000, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
 --- !u!1001 &224245424
 PrefabInstance:
@@ -4880,25 +4992,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2163965911661216610, guid: 53b998b81d704474e9ecb43206adecad, type: 3}
   m_PrefabInstance: {fileID: 11388599}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &255763354 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
+  m_PrefabInstance: {fileID: 64581795}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &258710473
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -294.89
+      value: -307.99274
       objectReference: {fileID: 0}
     - target: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.45
+      value: -1.486318
       objectReference: {fileID: 0}
     - target: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.71805
+      value: -271.58124
       objectReference: {fileID: 0}
     - target: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4906,15 +5023,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4932,6 +5049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Can Orange Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 8276625273990236846, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4948,23 +5069,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 3230034147011233538, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_Name
       value: Soda Can Green Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -295.91
+      value: -309.01273
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.34
+      value: -1.3763179
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.71805
+      value: -271.58124
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4972,15 +5097,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5164,6 +5289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Red with Label
       objectReference: {fileID: 0}
+    - target: {fileID: 4179343635334113613, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5180,6 +5309,10 @@ PrefabInstance:
     - target: {fileID: 3016437080816719917, guid: 20015f6b666c370449474a2775a04479, type: 3}
       propertyPath: m_Name
       value: Wine Glass
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016437080816719917, guid: 20015f6b666c370449474a2775a04479, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 8617810735975715772, guid: 20015f6b666c370449474a2775a04479, type: 3}
       propertyPath: m_LocalScale.x
@@ -5286,6 +5419,10 @@ PrefabInstance:
     - target: {fileID: 1782649407311841039, guid: 6e76fda8b4b9c214e815d61ddf722aa8, type: 3}
       propertyPath: m_Name
       value: Mug White Broken (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1782649407311841039, guid: 6e76fda8b4b9c214e815d61ddf722aa8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 6137156663951666328, guid: 6e76fda8b4b9c214e815d61ddf722aa8, type: 3}
       propertyPath: m_LocalScale.x
@@ -5413,10 +5550,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 767852394}
   m_SourcePrefab: {fileID: 100100000, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
 --- !u!4 &288193610 stripped
 Transform:
@@ -5439,6 +5583,10 @@ PrefabInstance:
     - target: {fileID: 729905956783502378, guid: b55d178e96dcaf14594261b0732f960b, type: 3}
       propertyPath: m_Name
       value: Broken Pottery
+      objectReference: {fileID: 0}
+    - target: {fileID: 729905956783502378, guid: b55d178e96dcaf14594261b0732f960b, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7449981739900460535, guid: b55d178e96dcaf14594261b0732f960b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5503,11 +5651,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2054967536}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 500
+      value: 500.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.y
@@ -5519,15 +5667,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -264
+      value: 34.01999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.96
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 333.40002
+      value: 500.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5634,6 +5782,11 @@ Transform:
   - {fileID: 1359245143}
   m_Father: {fileID: 2055436798}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &299081093 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+  m_PrefabInstance: {fileID: 1924312557}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &299130751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5685,6 +5838,10 @@ PrefabInstance:
     - target: {fileID: 6287776600339200383, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green with Label (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287776600339200383, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5769,6 +5926,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040403351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &305615110 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+  m_PrefabInstance: {fileID: 2004930368}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &305645917 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
@@ -5973,15 +6135,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2054967536}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 500
+      value: 500.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 500
+      value: 500.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.z
@@ -5989,15 +6151,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -142.6
+      value: 155.41998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.96
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 301
+      value: 467.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6135,6 +6297,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
       propertyPath: m_Name
       value: soy (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6278,6 +6444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shaker-salt (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6319,6 +6489,16 @@ Transform:
   - {fileID: 425504205}
   m_Father: {fileID: 435517613}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &321296033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+  m_PrefabInstance: {fileID: 1940940968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &323076920 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
+  m_PrefabInstance: {fileID: 1170395733}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &326813181
 GameObject:
   m_ObjectHideFlags: 0
@@ -6414,6 +6594,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_Name
       value: wine-white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6644,6 +6828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cheese (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aecec1a47c4c0e3428b5567ec85546a1, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6849,6 +7037,10 @@ PrefabInstance:
     - target: {fileID: 1153803601918318987, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
       propertyPath: m_Name
       value: Chicken Bone (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153803601918318987, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7206,6 +7398,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 1779520280}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &383674554 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
+  m_PrefabInstance: {fileID: 1179881382}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &383674557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383674554}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.50215304, y: 0.2733658, z: 0.5798364}
+  m_Center: {x: -0.00000047683716, y: 0.1366829, z: 0}
 --- !u!1001 &389451957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7352,6 +7570,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!1 &390706415 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+  m_PrefabInstance: {fileID: 1658090460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &391571847 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
@@ -7368,6 +7591,10 @@ PrefabInstance:
     - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green Broke (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7483,6 +7710,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-white
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7502,6 +7733,10 @@ PrefabInstance:
     - target: {fileID: 3230034147011233538, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_Name
       value: Beer Can Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalScale.x
@@ -8070,7 +8305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8333,6 +8568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Can Green Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 3417596192309181735, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8516,7 +8755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2d9ca2d124c2a7249a5997a151c00b69, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8592,7 +8831,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8665,6 +8904,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
       propertyPath: m_Name
       value: shaker-salt (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8811,6 +9054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Can Orange Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 8276625273990236846, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8880,10 +9127,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: utensil-spoon
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 47158157f09da3b45a7c2230f1c641d1, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 47158157f09da3b45a7c2230f1c641d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 642931883}
   m_SourcePrefab: {fileID: 100100000, guid: 47158157f09da3b45a7c2230f1c641d1, type: 3}
 --- !u!1 &458430635
 GameObject:
@@ -9289,6 +9543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shaker-salt (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9490,6 +9748,10 @@ PrefabInstance:
     - target: {fileID: 937326242163579350, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_Name
       value: Beer Can Blue Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 937326242163579350, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9709,6 +9971,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
       propertyPath: m_Name
       value: salad (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10323,6 +10589,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10473,6 +10743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-white (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10550,20 +10824,6 @@ Transform:
   - {fileID: 187998466}
   m_Father: {fileID: 681771491}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &556163525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8848912004233398856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3a05a9dc8ea61e4db3cbf60b00f1f23, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 30
-  rotationSpeed: 80
 --- !u!1 &556303900 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
@@ -10647,6 +10907,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!1 &561899010 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+  m_PrefabInstance: {fileID: 1572049384}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &563250692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11045,6 +11310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: popsicle-stick
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 27dac3886f3a6864bb365e02789a3f96, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11224,7 +11493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2ca7a91268eb37247a5b1e28ac4721e4, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11549,10 +11818,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soda-can-crushed (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1389048114}
   m_SourcePrefab: {fileID: 100100000, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
 --- !u!1001 &599082862
 PrefabInstance:
@@ -11618,10 +11894,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soda-can-crushed (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 893631146}
   m_SourcePrefab: {fileID: 100100000, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
 --- !u!4 &599158320 stripped
 Transform:
@@ -12070,6 +12353,32 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.043818273, y: 0.00074245036, z: -0.0000000018626451}
     m_Extent: {x: 0.08307221, y: 0.046641305, z: 0.04468891}
   m_DirtyAABB: 0
+--- !u!1 &636533167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 63eba1cfb2cc6ab41b55d72926ad7fa2, type: 3}
+  m_PrefabInstance: {fileID: 1218464532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &636533170
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636533167}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.31, y: 0.844731, z: 0.58}
+  m_Center: {x: 0, y: 0.4223655, z: 0}
 --- !u!1 &638403244
 GameObject:
   m_ObjectHideFlags: 0
@@ -12163,6 +12472,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 28147237}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &642931880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 47158157f09da3b45a7c2230f1c641d1, type: 3}
+  m_PrefabInstance: {fileID: 457471126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &642931883
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642931880}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.47958654, y: 0.0278, z: 0.12}
+  m_Center: {x: -0.0000019073486, y: 0.0139, z: 0}
 --- !u!1 &644133589
 GameObject:
   m_ObjectHideFlags: 0
@@ -12295,7 +12630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12343,6 +12678,11 @@ Transform:
   - {fileID: 1641421543}
   m_Father: {fileID: 811244571}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &646157967 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+  m_PrefabInstance: {fileID: 1339687296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &647919218
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12354,6 +12694,10 @@ PrefabInstance:
     - target: {fileID: 4882801322305221464, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
       propertyPath: m_Name
       value: Whale_HighPoly (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882801322305221464, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 8473637281567703371, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
       propertyPath: m_LocalScale.x
@@ -12512,10 +12856,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: shaker-pepper
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 751270991}
   m_SourcePrefab: {fileID: 100100000, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
 --- !u!4 &656882916 stripped
 Transform:
@@ -12533,6 +12884,10 @@ PrefabInstance:
     - target: {fileID: 937326242163579350, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
       propertyPath: m_Name
       value: Beer Can Blue Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 937326242163579350, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
       propertyPath: m_LocalScale.x
@@ -12655,10 +13010,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: tomato
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8abe4494ee0c31f47b6c6c6631dd9c0b, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8abe4494ee0c31f47b6c6c6631dd9c0b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1418453557}
   m_SourcePrefab: {fileID: 100100000, guid: 8abe4494ee0c31f47b6c6c6631dd9c0b, type: 3}
 --- !u!1 &659776978
 GameObject:
@@ -12849,6 +13211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Can Red Crushed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5102017246056220404, guid: 38cec26c05d5a0c48ba8b226165d370b, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12922,6 +13288,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
       propertyPath: m_Name
       value: soy (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13073,6 +13443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Can Green Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 3417596192309181735, guid: abc805df2245a814aacfab1c9341525e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13182,6 +13556,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
       propertyPath: m_Name
       value: soy
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13326,6 +13704,11 @@ Transform:
   - {fileID: 218235811}
   m_Father: {fileID: 594763377}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &691239772 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+  m_PrefabInstance: {fileID: 1231344917}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &697657863
 GameObject:
   m_ObjectHideFlags: 0
@@ -13422,6 +13805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-red
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13472,6 +13859,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
   m_PrefabInstance: {fileID: 1940940968}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &702379587
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321296033}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24710402, y: 0.180597, z: 0.24710399}
+  m_Center: {x: 0.000007626619, y: 0.090298496, z: 0.000003815034}
 --- !u!1001 &707281099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13880,6 +14288,17 @@ Transform:
   - {fileID: 1791854545}
   - {fileID: 952638328}
   - {fileID: 586404425}
+  - {fileID: 1228724028}
+  - {fileID: 2081249060}
+  - {fileID: 1200770261}
+  - {fileID: 1253491067}
+  - {fileID: 323076920}
+  - {fileID: 255763354}
+  - {fileID: 858656406}
+  - {fileID: 2181167}
+  - {fileID: 724811771}
+  - {fileID: 724927267}
+  - {fileID: 1956722302}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &721773829
@@ -13946,11 +14365,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Green with Label
       objectReference: {fileID: 0}
+    - target: {fileID: 6287776600339200383, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
+--- !u!4 &724811771 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
+  m_PrefabInstance: {fileID: 1428324322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &724927267 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
+  m_PrefabInstance: {fileID: 2075167250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &725035863 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5287371669910090882, guid: 54e0bca4b885dc441bbf0b98bbe69845, type: 3}
@@ -14099,11 +14532,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2054967536}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 500
+      value: 500.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.y
@@ -14115,15 +14548,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -264
+      value: 34.01999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.96
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 333.40002
+      value: 500.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14208,6 +14641,10 @@ PrefabInstance:
     - target: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_Name
       value: Soda Can Orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalScale.x
@@ -14581,6 +15018,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!4 &746959623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+  m_PrefabInstance: {fileID: 1630648246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &748658773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14645,6 +15087,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carton-small
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b8942c399729dc4887701d800a85a4e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14685,6 +15131,32 @@ Transform:
   - {fileID: 1564661382}
   m_Father: {fileID: 2077257832}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &751270988 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+  m_PrefabInstance: {fileID: 653266262}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &751270991
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751270988}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09492, y: 0.196, z: 0.09492}
+  m_Center: {x: 0, y: 0.098, z: 0}
 --- !u!1 &757914543
 GameObject:
   m_ObjectHideFlags: 0
@@ -14723,6 +15195,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
   m_PrefabInstance: {fileID: 2004930368}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &760581813
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305615110}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09492, y: 0.196, z: 0.09492}
+  m_Center: {x: 0, y: 0.098, z: 0.00000011920929}
 --- !u!1001 &760598313
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14922,6 +15415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shaker-pepper (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14994,6 +15491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shaker-salt (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15007,6 +15508,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
   m_PrefabInstance: {fileID: 721773829}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &767852391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+  m_PrefabInstance: {fileID: 288193609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &767852394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767852391}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16532224, y: 0.04, z: 0.19089769}
+  m_Center: {x: 0, y: 0.01999994, z: -0.0000076293945}
 --- !u!4 &771283408 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
@@ -15194,6 +15721,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Can Green Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.886559
@@ -15370,10 +15901,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: pot
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ccb0d048428d9aa4ab3210b1aaf47f08, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ccb0d048428d9aa4ab3210b1aaf47f08, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1822747830}
   m_SourcePrefab: {fileID: 100100000, guid: ccb0d048428d9aa4ab3210b1aaf47f08, type: 3}
 --- !u!1 &788867635
 GameObject:
@@ -15679,6 +16217,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_Name
       value: wine-white (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16004,6 +16546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: salad (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16107,6 +16653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: salad
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16184,11 +16734,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: cheese
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aecec1a47c4c0e3428b5567ec85546a1, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aecec1a47c4c0e3428b5567ec85546a1, type: 3}
+--- !u!1 &857530811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 74ee1dd2382f56d4a85b48e4f901eb7a, type: 3}
+  m_PrefabInstance: {fileID: 2058385304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &858656406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
+  m_PrefabInstance: {fileID: 2093385011}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &862921300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16273,6 +16837,10 @@ PrefabInstance:
     - target: {fileID: 531162568926729478, guid: a4bc6c888d501594b815ad51f8e7f7a2, type: 3}
       propertyPath: m_Name
       value: Beer Bottle Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 531162568926729478, guid: a4bc6c888d501594b815ad51f8e7f7a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1836693006545311995, guid: a4bc6c888d501594b815ad51f8e7f7a2, type: 3}
       propertyPath: m_LocalScale.x
@@ -16394,6 +16962,11 @@ Transform:
   - {fileID: 1521966588}
   m_Father: {fileID: 1311703312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &867477623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 516041eaf75ee344eb6cb8a72edb9c6f, type: 3}
+  m_PrefabInstance: {fileID: 1327671074}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &868684095 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
@@ -16465,7 +17038,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 872558920c5730341b3ef6acaabb254b, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16725,6 +17298,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Red with Label (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4179343635334113613, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16876,6 +17453,32 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!1 &893631143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+  m_PrefabInstance: {fileID: 599082862}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &893631146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893631143}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24710399, y: 0.18059699, z: 0.24710399}
+  m_Center: {x: 0.0000076293945, y: 0.090298496, z: 0}
 --- !u!4 &905199240 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
@@ -16959,11 +17562,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 1852610140}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &914417493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5aa416771248b204790338c9d82c2062, type: 3}
+  m_PrefabInstance: {fileID: 1823970761}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &916953088 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1017149123105775675, guid: 1a55f6ba8b72d7b4e90f993836efaad7, type: 3}
   m_PrefabInstance: {fileID: 656986001}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &918420712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+  m_PrefabInstance: {fileID: 1416428334}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &918420715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918420712}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.09492, y: 0.196, z: 0.09492}
+  m_Center: {x: 0, y: 0.098, z: 0}
 --- !u!1001 &918749704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17028,6 +17662,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shaker-salt (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17078,6 +17716,11 @@ Transform:
   - {fileID: 1622099244}
   m_Father: {fileID: 1464587710}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &927576005 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1b8942c399729dc4887701d800a85a4e, type: 3}
+  m_PrefabInstance: {fileID: 77683956}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &928488887 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
@@ -17094,6 +17737,10 @@ PrefabInstance:
     - target: {fileID: 937326242163579350, guid: ecd2a3fb14eff6444a0c6625701c1dfa, type: 3}
       propertyPath: m_Name
       value: Beer Can Blank Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 937326242163579350, guid: ecd2a3fb14eff6444a0c6625701c1dfa, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: ecd2a3fb14eff6444a0c6625701c1dfa, type: 3}
       propertyPath: m_LocalScale.x
@@ -17399,6 +18046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-red (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17508,6 +18159,10 @@ PrefabInstance:
     - target: {fileID: 3417596192309181735, guid: abc805df2245a814aacfab1c9341525e, type: 3}
       propertyPath: m_Name
       value: Beer Can Green Crushed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417596192309181735, guid: abc805df2245a814aacfab1c9341525e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17774,6 +18429,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_Name
       value: wine-white (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -18056,6 +18715,11 @@ Transform:
   - {fileID: 1981410546}
   m_Father: {fileID: 699948319}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &983997567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
+  m_PrefabInstance: {fileID: 1929835346}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &986596881
 GameObject:
   m_ObjectHideFlags: 0
@@ -18248,6 +18912,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!4 &997181070 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+  m_PrefabInstance: {fileID: 291264042}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1001884976 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
@@ -18732,6 +19401,11 @@ Transform:
   - {fileID: 1364271256}
   m_Father: {fileID: 634587944}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1041262919 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+  m_PrefabInstance: {fileID: 2114899716}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1046021798
 GameObject:
   m_ObjectHideFlags: 0
@@ -18994,6 +19668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-white (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19175,6 +19853,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
   m_PrefabInstance: {fileID: 1929835346}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1074683863
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983997567}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.8191058, y: 0.13800457, z: 0.86125875}
+  m_Center: {x: 0, y: 0.069002286, z: 0}
 --- !u!1001 &1074942767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19186,6 +19885,10 @@ PrefabInstance:
     - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Red with Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalScale.x
@@ -19336,7 +20039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d015c39f1b1ab5c49adfc9b27b11dcae, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -19415,10 +20118,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: tajine (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1904145627}
   m_SourcePrefab: {fileID: 100100000, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
 --- !u!1001 &1081691285
 PrefabInstance:
@@ -19561,6 +20271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Can Orange
       objectReference: {fileID: 0}
+    - target: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -19654,6 +20368,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 76652030}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1089209450
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1089209451}
+  - component: {fileID: 1089209453}
+  - component: {fileID: 1089209452}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1089209451
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089209450}
+  m_LocalRotation: {x: 0, y: 0.0055849943, z: 0, w: 0.99998444}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 1.95, z: 1.39}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1197509427}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.64, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.00012207031, y: -30}
+  m_SizeDelta: {x: 100.4, y: 100}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1089209452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089209450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.92769665, g: 0.9547169, b: 0.9358027, a: 0.972549}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b41391d68af9f864cb20114b2df90caa, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1089209453
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089209450}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1090020795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20043,10 +20832,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-white (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2095217764}
   m_SourcePrefab: {fileID: 100100000, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
 --- !u!1001 &1101739608
 PrefabInstance:
@@ -20111,6 +20907,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_Name
       value: wine-white (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20216,6 +21016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: shaker-pepper (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20229,6 +21033,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
   m_PrefabInstance: {fileID: 1658090460}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1106765085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390706415}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16532226, y: 0.04000001, z: 0.19089769}
+  m_Center: {x: -6.1467287e-10, y: 0.01999237, z: -0.0000038146227}
+--- !u!1 &1107610332
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107610333}
+  - component: {fileID: 1107610334}
+  - component: {fileID: 1107610335}
+  m_Layer: 0
+  m_Name: "a\u011F\u0131z"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1107610333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107610332}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.9, y: -0.77, z: 0}
+  m_LocalScale: {x: 1.099, y: 1.099, z: 1.099}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8180355760613871858}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1107610334
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107610332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1.963927, z: 1}
+  m_Center: {x: 0, y: -0.26218322, z: 0}
+--- !u!114 &1107610335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107610332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945e41a838a83de488d6fa2e2c81f0f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorePerCollision: 10
+  scoreTextMeshPro: {fileID: 0}
+  score: 0
 --- !u!1 &1108428048 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bff3ea76abc3b8d44a7bd0186aa03634, type: 3}
@@ -20676,6 +21570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pot-lid (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20750,7 +21648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 23fc813530fd2084e955d0649ea55723, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20904,23 +21802,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 3230034147011233538, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_Name
       value: Beer Can Red
       objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -293.29922
+      value: -306.40195
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.6000023
+      value: -1.6363202
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.71805
+      value: -271.58124
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20928,15 +21830,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -20971,6 +21873,10 @@ PrefabInstance:
     - target: {fileID: 3230034147011233538, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_Name
       value: Soda Can Red Crushed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalScale.x
@@ -21187,10 +22093,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: salad (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 383674557}
   m_SourcePrefab: {fileID: 100100000, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
 --- !u!1001 &1182433326
 PrefabInstance:
@@ -21255,6 +22168,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
       propertyPath: m_Name
       value: shaker-salt
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -21342,6 +22259,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!1 &1190289754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
+  m_PrefabInstance: {fileID: 1411443024}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1194476699
 GameObject:
   m_ObjectHideFlags: 0
@@ -21458,6 +22380,10 @@ PrefabInstance:
     - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Red with Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21577,29 +22503,135 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!1 &1197509426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1197509427}
+  - component: {fileID: 1197509430}
+  - component: {fileID: 1197509429}
+  - component: {fileID: 1197509428}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1197509427
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197509426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1089209451}
+  m_Father: {fileID: 1607041293}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1197509428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197509426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1197509429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197509426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1197509430
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197509426}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1001 &1199552493
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_Name
       value: Soda Can Orange
       objectReference: {fileID: 0}
+    - target: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -293.29922
+      value: -306.40195
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.6000023
+      value: -1.6363202
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.71805
+      value: -271.58124
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21607,15 +22639,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21803,6 +22835,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Can Green Crushed (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3417596192309181735, guid: abc805df2245a814aacfab1c9341525e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21872,11 +22908,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Red with Label
       objectReference: {fileID: 0}
+    - target: {fileID: 4179343635334113613, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
+--- !u!4 &1200770261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
+  m_PrefabInstance: {fileID: 1199552493}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1201725754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7449981739900460535, guid: b55d178e96dcaf14594261b0732f960b, type: 3}
@@ -21976,6 +23021,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
       propertyPath: m_Name
       value: shaker-pepper
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22279,10 +23328,20 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!4 &1214518645 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+  m_PrefabInstance: {fileID: 732322611}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1214575153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 423095013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1214998509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ccb0d048428d9aa4ab3210b1aaf47f08, type: 3}
+  m_PrefabInstance: {fileID: 787567595}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1215678132
 PrefabInstance:
@@ -22347,6 +23406,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_Name
       value: wine-white (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22571,12 +23634,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 63eba1cfb2cc6ab41b55d72926ad7fa2, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 63eba1cfb2cc6ab41b55d72926ad7fa2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 636533170}
   m_SourcePrefab: {fileID: 100100000, guid: 63eba1cfb2cc6ab41b55d72926ad7fa2, type: 3}
 --- !u!1001 &1218627606
 PrefabInstance:
@@ -22642,10 +23708,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1288524234}
   m_SourcePrefab: {fileID: 100100000, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
 --- !u!4 &1220254474 stripped
 Transform:
@@ -22689,6 +23762,11 @@ Transform:
   - {fileID: 427707886}
   m_Father: {fileID: 1359245143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1228724028 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
+  m_PrefabInstance: {fileID: 1550360587}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1229555185 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
@@ -22784,16 +23862,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1231344921}
   m_SourcePrefab: {fileID: 100100000, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
 --- !u!4 &1231344918 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
   m_PrefabInstance: {fileID: 1231344917}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1231344921
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691239772}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16532224, y: 0.04, z: 0.19089769}
+  m_Center: {x: -0.00000047683716, y: 0.02, z: 0}
 --- !u!1 &1232659960
 GameObject:
   m_ObjectHideFlags: 0
@@ -23049,11 +24155,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 605882963}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1253491067 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
+  m_PrefabInstance: {fileID: 265835576}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1259350745 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 467017792}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1261631497 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
+  m_PrefabInstance: {fileID: 1574862810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1261631500
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261631497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6574494, y: 0.11840001, z: 0.6252716}
+  m_Center: {x: 0, y: 0.059200004, z: 0}
 --- !u!1 &1262818054 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
@@ -23181,6 +24318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: styrofoam
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5aa416771248b204790338c9d82c2062, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23295,7 +24436,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267612082}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1267612084
 Camera:
   m_ObjectHideFlags: 0
@@ -23367,6 +24508,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 516041eaf75ee344eb6cb8a72edb9c6f, type: 3}
   m_PrefabInstance: {fileID: 1327671074}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1269088885
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867477623}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.45384982, y: 0.38260916, z: 0.55752635}
+  m_Center: {x: -0.0000009536743, y: 0.19130458, z: 0}
 --- !u!1001 &1269104673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23431,10 +24593,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soda-can-crushed (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1753231470}
   m_SourcePrefab: {fileID: 100100000, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
 --- !u!1001 &1269744293
 PrefabInstance:
@@ -23499,6 +24668,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_Name
       value: wine-white (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -23728,6 +24901,10 @@ PrefabInstance:
     - target: {fileID: 8276625273990236846, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_Name
       value: Soda Can Orange Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276625273990236846, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24008,6 +25185,32 @@ Transform:
   - {fileID: 1174164601}
   m_Father: {fileID: 2039655555}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1288524231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+  m_PrefabInstance: {fileID: 1218627606}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1288524234
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288524231}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16532224, y: 0.04, z: 0.19089769}
+  m_Center: {x: -0.00000047683716, y: 0.02, z: 0}
 --- !u!4 &1293106102 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
@@ -24676,6 +25879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Can Red Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -24797,6 +26004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pot-stew-lid
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bff3ea76abc3b8d44a7bd0186aa03634, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24869,11 +26080,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: chinese
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 516041eaf75ee344eb6cb8a72edb9c6f, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 516041eaf75ee344eb6cb8a72edb9c6f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1269088885}
   m_SourcePrefab: {fileID: 100100000, guid: 516041eaf75ee344eb6cb8a72edb9c6f, type: 3}
+--- !u!1 &1328817330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+  m_PrefabInstance: {fileID: 222872146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1328817333
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1328817330}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24710399, y: 0.18059699, z: 0.24710399}
+  m_Center: {x: 0.0000076293945, y: 0.090298496, z: 0}
 --- !u!1 &1330533853
 GameObject:
   m_ObjectHideFlags: 0
@@ -25248,16 +26492,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: soda-can-crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1339687300}
   m_SourcePrefab: {fileID: 100100000, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
 --- !u!4 &1339687297 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
   m_PrefabInstance: {fileID: 1339687296}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1339687300
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646157967}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24710399, y: 0.18059699, z: 0.24710399}
+  m_Center: {x: 0.0000076293945, y: 0.090298496, z: -0.0000076293945}
 --- !u!1 &1341716346
 GameObject:
   m_ObjectHideFlags: 0
@@ -25509,6 +26781,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
   m_PrefabInstance: {fileID: 1411443024}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1351960372
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190289754}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.370657, y: 0.11887757, z: 0.137268}
+  m_Center: {x: 0, y: 0.059438784, z: 0}
 --- !u!1 &1352182765
 GameObject:
   m_ObjectHideFlags: 0
@@ -25810,6 +27103,32 @@ Transform:
   - {fileID: 1089057203}
   m_Father: {fileID: 1038090110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1366244186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+  m_PrefabInstance: {fileID: 1717150727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1366244189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366244186}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.19079423, y: 0.6988799, z: 0.16523266}
+  m_Center: {x: 0, y: 0.34943995, z: 0}
 --- !u!4 &1368926280 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1650006661591258338, guid: 5035be92e850c9e4ca48d390cf0fd7e8, type: 3}
@@ -26218,6 +27537,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
   m_PrefabInstance: {fileID: 598687819}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1389048114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 80236324}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24710402, y: 0.180597, z: 0.24710399}
+  m_Center: {x: -0.0000000027752018, y: 0.090298496, z: 0.000003815034}
 --- !u!4 &1391572569 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1836693006545311995, guid: a4bc6c888d501594b815ad51f8e7f7a2, type: 3}
@@ -26425,12 +27765,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1351960372}
   m_SourcePrefab: {fileID: 100100000, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
 --- !u!1001 &1411519419
 PrefabInstance:
@@ -26604,16 +27947,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: shaker-salt (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 918420715}
   m_SourcePrefab: {fileID: 100100000, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
 --- !u!4 &1418453554 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8abe4494ee0c31f47b6c6c6631dd9c0b, type: 3}
   m_PrefabInstance: {fileID: 658456973}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1418453557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167002989}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.169692, y: 0.14266428, z: 0.169692}
+  m_Center: {x: 0, y: 0.07133214, z: -0.0000009536743}
 --- !u!1001 &1421801403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26680,12 +28051,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 47158157f09da3b45a7c2230f1c641d1, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 47158157f09da3b45a7c2230f1c641d1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1873978724}
   m_SourcePrefab: {fileID: 100100000, guid: 47158157f09da3b45a7c2230f1c641d1, type: 3}
 --- !u!1 &1423208750
 GameObject:
@@ -26923,23 +28297,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green Broke
       objectReference: {fileID: 0}
+    - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -302.37
+      value: -315.47272
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.46
+      value: -0.49631798
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.96823
+      value: -271.83142
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26947,7 +28325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalRotation.y
@@ -27179,6 +28557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: salad (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27340,6 +28722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mug Wood (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3093585832671737841, guid: 0c151e8b229a7e34ab8f87c12c618a32, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7455760465872084070, guid: 0c151e8b229a7e34ab8f87c12c618a32, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -27413,6 +28799,10 @@ PrefabInstance:
     - target: {fileID: 3230034147011233538, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_Name
       value: Soda Can Red Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27515,59 +28905,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &1447972971
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1447972972}
-  - component: {fileID: 1447972973}
-  m_Layer: 0
-  m_Name: "charactera\u011F\u0131z"
-  m_TagString: "charactera\u011F\u0131z"
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1447972972
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447972971}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.7, y: 0.4, z: 2.25}
-  m_LocalScale: {x: 1, y: 2.4811068, z: 0.77092}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8180355760613871858}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1447972973
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1447972971}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1448031456 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: caa4f16eabdcc374480188cddf91788b, type: 3}
@@ -27885,7 +29222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -28487,6 +29824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mug Wood
       objectReference: {fileID: 0}
+    - target: {fileID: 3093585832671737841, guid: 0c151e8b229a7e34ab8f87c12c618a32, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 7455760465872084070, guid: 0c151e8b229a7e34ab8f87c12c618a32, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -28680,6 +30021,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
       propertyPath: m_Name
       value: shaker-pepper (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29343,23 +30688,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 3230034147011233538, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_Name
       value: Soda Can Red Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -294.2
+      value: -307.30273
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.36
+      value: -1.3963178
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.54
+      value: -271.4032
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29367,15 +30716,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: c8123449a980e6c438fa9bb06277785a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29425,6 +30774,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1506003439}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1551863699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 52f1cd2b60b45be4ab3d14b0a965c403, type: 3}
+  m_PrefabInstance: {fileID: 1643420692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1553184399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29488,6 +30842,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_Name
       value: wine-white (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29568,12 +30926,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1768703102}
   m_SourcePrefab: {fileID: 100100000, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
 --- !u!1 &1559593795
 GameObject:
@@ -29975,10 +31336,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2124664891}
   m_SourcePrefab: {fileID: 100100000, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
 --- !u!1001 &1570945234
 PrefabInstance:
@@ -30046,7 +31414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: caa4f16eabdcc374480188cddf91788b, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30120,16 +31488,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: soda-can-crushed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1572049388}
   m_SourcePrefab: {fileID: 100100000, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
 --- !u!4 &1572049385 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
   m_PrefabInstance: {fileID: 1572049384}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1572049388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561899010}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24710399, y: 0.18059699, z: 0.24710399}
+  m_Center: {x: 0, y: 0.090298496, z: 0}
 --- !u!1001 &1572198673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30304,16 +31700,49 @@ PrefabInstance:
       propertyPath: m_Name
       value: pot-lid
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1261631500}
   m_SourcePrefab: {fileID: 100100000, guid: 11b007b3f3957824b80781c991d14013, type: 3}
 --- !u!4 &1579195048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 744033181}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582448805 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+  m_PrefabInstance: {fileID: 62752305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1582448808
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582448805}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.17999999, y: 0.03, z: 0.17999999}
+  m_Center: {x: 0, y: 0.015, z: 0}
 --- !u!1 &1584037027
 GameObject:
   m_ObjectHideFlags: 0
@@ -30409,6 +31838,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_Name
       value: wine-white
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30913,7 +32346,9 @@ Transform:
   m_LocalPosition: {x: 0, y: -3.6, z: 0}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1197509427}
+  - {fileID: 1876685686}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1610347924
@@ -31274,6 +32709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Bottle Red with Label (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4179343635334113613, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31285,15 +32724,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2054967536}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 400
+      value: 400.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 400
+      value: 400.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.z
@@ -31301,15 +32740,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -68.27879
+      value: 229.7412
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.79999995
+      value: -1.1099999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 285
+      value: 451.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -31643,12 +33082,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 52f1cd2b60b45be4ab3d14b0a965c403, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 52f1cd2b60b45be4ab3d14b0a965c403, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1926391904}
   m_SourcePrefab: {fileID: 100100000, guid: 52f1cd2b60b45be4ab3d14b0a965c403, type: 3}
 --- !u!1 &1643471845 stripped
 GameObject:
@@ -31782,6 +33224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-red (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -31790,6 +33236,32 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1973275712}
   m_SourcePrefab: {fileID: 100100000, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+--- !u!1 &1656336661 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+  m_PrefabInstance: {fileID: 1855038916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1656336664
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656336661}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16532224, y: 0.04, z: 0.19089769}
+  m_Center: {x: -0.0000009536743, y: 0.01999988, z: 0}
 --- !u!1001 &1657415352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31927,10 +33399,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1106765085}
   m_SourcePrefab: {fileID: 100100000, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
 --- !u!1 &1660018860
 GameObject:
@@ -31996,6 +33475,32 @@ Transform:
   - {fileID: 1005281245}
   m_Father: {fileID: 569249137}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1662036321 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1a6a29fc4864e4a46b302493ad554301, type: 3}
+  m_PrefabInstance: {fileID: 1967307974}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1662036324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662036321}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7554666, y: 0.44201046, z: 0.7943446}
+  m_Center: {x: 0, y: 0.22100523, z: 0.00000011920929}
 --- !u!1001 &1662815898
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32060,6 +33565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: can-small (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce8207193a3ab114b877e83b0ca1e319, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -32078,6 +33587,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1b8942c399729dc4887701d800a85a4e, type: 3}
   m_PrefabInstance: {fileID: 77683956}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1667658565
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927576005}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22999999, y: 0.3905463, z: 0.22999999}
+  m_Center: {x: -0.00000047683716, y: 0.19527315, z: 0}
 --- !u!1 &1669283625
 GameObject:
   m_ObjectHideFlags: 0
@@ -32156,6 +33686,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 74ee1dd2382f56d4a85b48e4f901eb7a, type: 3}
   m_PrefabInstance: {fileID: 2058385304}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1681807314
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857530811}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7244099, y: 0.15761663, z: 0.15761663}
+  m_Center: {x: 0, y: 0.07880808, z: 0.00000011920929}
 --- !u!1 &1685153797 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
@@ -32251,10 +33802,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: tomato-slice
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2087240663}
   m_SourcePrefab: {fileID: 100100000, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
 --- !u!1 &1689134380 stripped
 GameObject:
@@ -32379,6 +33937,10 @@ PrefabInstance:
     - target: {fileID: 729905956783502378, guid: b55d178e96dcaf14594261b0732f960b, type: 3}
       propertyPath: m_Name
       value: Broken Pottery (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 729905956783502378, guid: b55d178e96dcaf14594261b0732f960b, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 7449981739900460535, guid: b55d178e96dcaf14594261b0732f960b, type: 3}
       propertyPath: m_LocalScale.x
@@ -32794,10 +34356,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine-red
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1366244189}
   m_SourcePrefab: {fileID: 100100000, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
 --- !u!1001 &1719642634
 PrefabInstance:
@@ -32862,6 +34431,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
       propertyPath: m_Name
       value: pot-lid (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -32937,7 +34510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33010,6 +34583,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
       propertyPath: m_Name
       value: wine-red (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33218,11 +34795,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 241111317}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1733223977 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+  m_PrefabInstance: {fileID: 2025859165}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1733870103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 1953957524}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1737108582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+  m_PrefabInstance: {fileID: 116382373}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1737108585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1737108582}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24710402, y: 0.180597, z: 0.24710399}
+  m_Center: {x: -0.0000000027752018, y: 0.090298496, z: 0.000003815034}
 --- !u!1 &1739133139
 GameObject:
   m_ObjectHideFlags: 0
@@ -33299,6 +34907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Green Broke (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 924935055946310828, guid: 3821453175ca30243b7074a7311765aa, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 3821453175ca30243b7074a7311765aa, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -33367,6 +34979,10 @@ PrefabInstance:
     - target: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_Name
       value: Soda Can Orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 7013320978822667758, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 8319016939627517206, guid: ee6951d938497174989b85bc977b2e7a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33595,6 +35211,58 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 760598313}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1750361996 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
+  m_PrefabInstance: {fileID: 1924015673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1750361999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750361996}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.8191058, y: 0.13800457, z: 0.86125875}
+  m_Center: {x: 0, y: 0.069002286, z: 0.00000011920929}
+--- !u!1 &1753231467 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+  m_PrefabInstance: {fileID: 1269104673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1753231470
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753231467}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24710402, y: 0.180597, z: 0.24710399}
+  m_Center: {x: -0.0000000027752018, y: 0.090306126, z: 0.000003815034}
 --- !u!4 &1753546013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 124556297506182369, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
@@ -33737,6 +35405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carton-small (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b8942c399729dc4887701d800a85a4e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33808,7 +35480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34115,6 +35787,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 973172453}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1768703099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a164f7b969a100e40a0f62d7a1f3f77b, type: 3}
+  m_PrefabInstance: {fileID: 1556978439}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1768703102
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768703099}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.370657, y: 0.11887757, z: 0.137268}
+  m_Center: {x: 0, y: 0.059438784, z: 0}
 --- !u!1 &1769037427
 GameObject:
   m_ObjectHideFlags: 0
@@ -34245,7 +35943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9a4ef59f986f30f4e9fc220c468a850e, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34259,6 +35957,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 1036732394}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1771791236 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+  m_PrefabInstance: {fileID: 313475260}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1776769075
 GameObject:
@@ -34510,6 +36213,32 @@ Transform:
   - {fileID: 2104936562}
   m_Father: {fileID: 1413161097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1790396501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 872558920c5730341b3ef6acaabb254b, type: 3}
+  m_PrefabInstance: {fileID: 1894523821}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1790396504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790396501}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.14, y: 0.6218, z: 0.14}
+  m_Center: {x: 0, y: 0.3109, z: 0.00000047683716}
 --- !u!1001 &1790565362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34647,6 +36376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine Bottle Green with Blank Label
       objectReference: {fileID: 0}
+    - target: {fileID: 6287776600339200383, guid: 54e0bca4b885dc441bbf0b98bbe69845, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -34736,19 +36469,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -303.36
+      value: -316.4627
       objectReference: {fileID: 0}
     - target: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.87
+      value: -0.90631783
       objectReference: {fileID: 0}
     - target: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.96823
+      value: -271.83142
       objectReference: {fileID: 0}
     - target: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34756,15 +36489,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2603693977021342896, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -34781,6 +36514,10 @@ PrefabInstance:
     - target: {fileID: 4179343635334113613, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
       propertyPath: m_Name
       value: Beer Bottle Red with Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179343635334113613, guid: 23aff9c48b65f194ebd7a8e6221879b7, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -34970,6 +36707,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5aa416771248b204790338c9d82c2062, type: 3}
   m_PrefabInstance: {fileID: 1823970761}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1803422266
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914417493}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.758926, y: 0.16473599, z: 0.758926}
+  m_Center: {x: 0, y: 0.082367934, z: -0.0000009536743}
 --- !u!4 &1803780390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
@@ -35059,6 +36817,10 @@ PrefabInstance:
     - target: {fileID: 4179343635334113613, guid: 0fb3464b5bf6ee344b0b739ac998d1bf, type: 3}
       propertyPath: m_Name
       value: Beer Bottle Red with Blank Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 4179343635334113613, guid: 0fb3464b5bf6ee344b0b739ac998d1bf, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -35431,6 +37193,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ccb0d048428d9aa4ab3210b1aaf47f08, type: 3}
   m_PrefabInstance: {fileID: 787567595}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1822747830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214998509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6574494, y: 0.36079997, z: 0.8220716}
+  m_Center: {x: 0, y: 0.18039998, z: 0}
 --- !u!4 &1823888015 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3202643572831470794, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
@@ -35500,6 +37283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: styrofoam (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5aa416771248b204790338c9d82c2062, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 1088619777609266644, guid: 5aa416771248b204790338c9d82c2062, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.66
@@ -35515,7 +37302,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5aa416771248b204790338c9d82c2062, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1803422266}
   m_SourcePrefab: {fileID: 100100000, guid: 5aa416771248b204790338c9d82c2062, type: 3}
 --- !u!1 &1828119201
 GameObject:
@@ -35584,6 +37374,10 @@ PrefabInstance:
     - target: {fileID: 3230034147011233538, guid: bbc1f0fc0f45274428dade32ac94941e, type: 3}
       propertyPath: m_Name
       value: Soda Can Green
+      objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: bbc1f0fc0f45274428dade32ac94941e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: bbc1f0fc0f45274428dade32ac94941e, type: 3}
       propertyPath: m_LocalScale.x
@@ -35831,6 +37625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Can Green Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -35951,6 +37749,10 @@ PrefabInstance:
     - target: {fileID: 1153803601918318987, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
       propertyPath: m_Name
       value: Chicken Bone
+      objectReference: {fileID: 0}
+    - target: {fileID: 1153803601918318987, guid: cb28e6a8083d9404db07c7774f4627ba, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -36309,10 +38111,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1656336664}
   m_SourcePrefab: {fileID: 100100000, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
 --- !u!1 &1859812075 stripped
 GameObject:
@@ -36578,6 +38387,32 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1873978721 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 47158157f09da3b45a7c2230f1c641d1, type: 3}
+  m_PrefabInstance: {fileID: 1421801403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1873978724
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873978721}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.47958654, y: 0.0278, z: 0.12}
+  m_Center: {x: 0, y: 0.013899761, z: 0.00000011920929}
 --- !u!4 &1875295069 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
@@ -36614,6 +38449,107 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1142497484}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1876685685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876685686}
+  - component: {fileID: 1876685689}
+  - component: {fileID: 1876685688}
+  - component: {fileID: 1876685687}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1876685686
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876685685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1607041293}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1876685687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876685685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1876685688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876685685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1876685689
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876685685}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1001 &1877550469
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36725,6 +38661,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mug White Broken
       objectReference: {fileID: 0}
+    - target: {fileID: 1782649407311841039, guid: 6e76fda8b4b9c214e815d61ddf722aa8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 6137156663951666328, guid: 6e76fda8b4b9c214e815d61ddf722aa8, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -36826,6 +38766,10 @@ PrefabInstance:
     - target: {fileID: 937326242163579350, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_Name
       value: Beer Can Blue Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 937326242163579350, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalScale.x
@@ -37045,12 +38989,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 872558920c5730341b3ef6acaabb254b, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 872558920c5730341b3ef6acaabb254b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1790396504}
   m_SourcePrefab: {fileID: 100100000, guid: 872558920c5730341b3ef6acaabb254b, type: 3}
 --- !u!1001 &1896018780
 PrefabInstance:
@@ -37063,6 +39010,10 @@ PrefabInstance:
     - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Red with Label (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
       propertyPath: m_LocalPosition.x
@@ -37194,6 +39145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda Can Green Crushed (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: f02a92e1ab7d32d4fad570cd12c80c3e, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -37256,6 +39211,32 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
   m_PrefabInstance: {fileID: 2009738779}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1904145624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
+  m_PrefabInstance: {fileID: 1078676701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1904145627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904145624}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.8191058, y: 0.13800457, z: 0.86125875}
+  m_Center: {x: -0.0000009536743, y: 0.069002286, z: 0.00000047683716}
 --- !u!1001 &1906862876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37307,6 +39288,10 @@ PrefabInstance:
     - target: {fileID: 6287776600339200383, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green with Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287776600339200383, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37376,6 +39361,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ce8207193a3ab114b877e83b0ca1e319, type: 3}
       propertyPath: m_Name
       value: can-small
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ce8207193a3ab114b877e83b0ca1e319, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37479,6 +39468,10 @@ PrefabInstance:
     - target: {fileID: 8276625273990236846, guid: 35efe15ca8dedd847b1cba138e77b47e, type: 3}
       propertyPath: m_Name
       value: Soda Can Blank Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276625273990236846, guid: 35efe15ca8dedd847b1cba138e77b47e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -37750,12 +39743,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1750361999}
   m_SourcePrefab: {fileID: 100100000, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
 --- !u!1001 &1924312557
 PrefabInstance:
@@ -37763,15 +39759,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2054967536}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 500
+      value: 500.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 500
+      value: 500.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.z
@@ -37779,15 +39775,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -209.10002
+      value: 88.91997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.96
+      value: -3.27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 291.1
+      value: 457.90002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -37835,6 +39831,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 52f1cd2b60b45be4ab3d14b0a965c403, type: 3}
   m_PrefabInstance: {fileID: 1643420692}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1926391904
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1551863699}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.097982205, y: 0.265345, z: 0.097982205}
+  m_Center: {x: 0, y: 0.1326725, z: 0}
 --- !u!1 &1927437580
 GameObject:
   m_ObjectHideFlags: 0
@@ -37930,10 +39947,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: tajine
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1074683863}
   m_SourcePrefab: {fileID: 100100000, guid: 99bc3364bd5c1614f94d2b8b54ed6b44, type: 3}
 --- !u!1 &1931130293 stripped
 GameObject:
@@ -38202,6 +40226,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Beer Can Red
       objectReference: {fileID: 0}
+    - target: {fileID: 3230034147011233538, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 4536291819999006714, guid: 5f6a44704381d674fbe683276b29b7aa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.886559
@@ -38311,10 +40339,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: soda-can-crushed (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 702379587}
   m_SourcePrefab: {fileID: 100100000, guid: aa02ddd27e21a264bbc27e5a6d09a2a2, type: 3}
 --- !u!1 &1941413514
 GameObject:
@@ -38519,6 +40554,10 @@ PrefabInstance:
     - target: {fileID: 3417596192309181735, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
       propertyPath: m_Name
       value: Beer Can Green Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3417596192309181735, guid: be2f3a70d7cff0d499d97d845208aafb, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -38797,6 +40836,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1317789775}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1956722302 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2163965911661216610, guid: 3af47aa23425e3c44b5be3d082a74f79, type: 3}
+  m_PrefabInstance: {fileID: 73554638}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1958641308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38808,6 +40852,10 @@ PrefabInstance:
     - target: {fileID: 937326242163579350, guid: ecd2a3fb14eff6444a0c6625701c1dfa, type: 3}
       propertyPath: m_Name
       value: Beer Can Blank Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 937326242163579350, guid: ecd2a3fb14eff6444a0c6625701c1dfa, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: ecd2a3fb14eff6444a0c6625701c1dfa, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39066,7 +41114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2ca7a91268eb37247a5b1e28ac4721e4, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39215,12 +41263,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1a6a29fc4864e4a46b302493ad554301, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1a6a29fc4864e4a46b302493ad554301, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1662036324}
   m_SourcePrefab: {fileID: 100100000, guid: 1a6a29fc4864e4a46b302493ad554301, type: 3}
 --- !u!1 &1970594905
 GameObject:
@@ -39381,6 +41432,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
       propertyPath: m_Name
       value: wine-red (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39560,6 +41615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: salad (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9e8d9c64a77640547aa49554b4754bf2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39631,6 +41690,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
       propertyPath: m_Name
       value: shaker-salt (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7978ad4516571c6438fb96cfe6982823, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40129,12 +42192,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 760581813}
   m_SourcePrefab: {fileID: 100100000, guid: 707a91aa1cc06634194f95bcb016ec31, type: 3}
 --- !u!1001 &2009019103
 PrefabInstance:
@@ -40199,6 +42265,10 @@ PrefabInstance:
     - target: {fileID: 5102017246056220404, guid: 38cec26c05d5a0c48ba8b226165d370b, type: 3}
       propertyPath: m_Name
       value: Beer Can Red Crushed
+      objectReference: {fileID: 0}
+    - target: {fileID: 5102017246056220404, guid: 38cec26c05d5a0c48ba8b226165d370b, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40586,15 +42656,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 2054967536}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 400
+      value: 400.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 400
+      value: 400.00003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalScale.z
@@ -40602,15 +42672,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -68.27879
+      value: 229.7412
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.79999995
+      value: -1.1099999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 285
+      value: 451.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -40789,6 +42859,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
       propertyPath: m_Name
       value: wine-red (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 51a50cd328b69d449be228e25200c3a2, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41072,7 +43146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -41215,6 +43289,10 @@ PrefabInstance:
     - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green Broke
+      objectReference: {fileID: 0}
+    - target: {fileID: 924935055946310828, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 8788502350491842582, guid: 64af0ad50f70dbf45b4cb158dbee515a, type: 3}
       propertyPath: m_LocalScale.x
@@ -41525,6 +43603,13 @@ Transform:
   - {fileID: 1313691188}
   - {fileID: 2129194827}
   - {fileID: 416205442}
+  - {fileID: 29111368}
+  - {fileID: 299081093}
+  - {fileID: 1771791236}
+  - {fileID: 746959623}
+  - {fileID: 1733223977}
+  - {fileID: 1214518645}
+  - {fileID: 997181070}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2055436797
@@ -41627,12 +43712,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 74ee1dd2382f56d4a85b48e4f901eb7a, type: 3}
       propertyPath: m_TagString
-      value: rubbish
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 74ee1dd2382f56d4a85b48e4f901eb7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1681807314}
   m_SourcePrefab: {fileID: 100100000, guid: 74ee1dd2382f56d4a85b48e4f901eb7a, type: 3}
 --- !u!1001 &2061273638
 PrefabInstance:
@@ -41645,6 +43733,10 @@ PrefabInstance:
     - target: {fileID: 10657068676566687, guid: 00ebca87e53d6fe4293c88f252496dec, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Red with Label (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 10657068676566687, guid: 00ebca87e53d6fe4293c88f252496dec, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     - target: {fileID: 2163965911661216610, guid: 00ebca87e53d6fe4293c88f252496dec, type: 3}
       propertyPath: m_LocalScale.x
@@ -41798,6 +43890,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: soy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41869,6 +43965,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
       propertyPath: m_Name
       value: pot-lid (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 11b007b3f3957824b80781c991d14013, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42076,6 +44176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: carton-small (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1b8942c399729dc4887701d800a85a4e, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -42090,19 +44194,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -305.54
+      value: -318.64273
       objectReference: {fileID: 0}
     - target: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.17
+      value: -0.20631802
       objectReference: {fileID: 0}
     - target: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.96823
+      value: -271.83142
       objectReference: {fileID: 0}
     - target: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_LocalRotation.w
@@ -42110,15 +44214,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5287371669910090882, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42135,6 +44239,10 @@ PrefabInstance:
     - target: {fileID: 6287776600339200383, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
       propertyPath: m_Name
       value: Wine Bottle Green with Label
+      objectReference: {fileID: 0}
+    - target: {fileID: 6287776600339200383, guid: f8a4b5315bc42194f804d87ec1096810, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42427,6 +44535,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56c525059b1768246b7969b086608ce7, type: 3}
+--- !u!4 &2081249060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6988246613009678934, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
+  m_PrefabInstance: {fileID: 258710473}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2083740422
 GameObject:
   m_ObjectHideFlags: 0
@@ -42458,6 +44571,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2121581526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2087240660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+  m_PrefabInstance: {fileID: 1687421184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2087240663
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087240660}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.17999999, y: 0.03, z: 0.17999999}
+  m_Center: {x: 0, y: 0.015, z: 0}
 --- !u!1 &2087763462
 GameObject:
   m_ObjectHideFlags: 0
@@ -42501,23 +44640,27 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 720920301}
     m_Modifications:
     - target: {fileID: 937326242163579350, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_Name
       value: Beer Can Blue Crushed
       objectReference: {fileID: 0}
+    - target: {fileID: 937326242163579350, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -292.33
+      value: -305.4327
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.49
+      value: -1.526318
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -268.71805
+      value: -271.58124
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalRotation.w
@@ -42525,15 +44668,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1017149123105775675, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -42552,6 +44695,32 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7690bf91c4240ca4b876e0de5b4034af, type: 3}
+--- !u!1 &2095217761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e8b04c9f968d9aa41b96864d3961d750, type: 3}
+  m_PrefabInstance: {fileID: 1097593608}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2095217764
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095217761}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.20279998, y: 0.6556001, z: 0.17562996}
+  m_Center: {x: 0, y: 0.30620003, z: 0}
 --- !u!1 &2098746152
 GameObject:
   m_ObjectHideFlags: 0
@@ -42778,16 +44947,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: tomato-slice
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+      propertyPath: m_TagString
+      value: Trash
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2114899720}
   m_SourcePrefab: {fileID: 100100000, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
 --- !u!4 &2114899717 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ecd92142dfc6d434582269dc606df9cd, type: 3}
   m_PrefabInstance: {fileID: 2114899716}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &2114899720
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041262919}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.17999999, y: 0.03, z: 0.17999999}
+  m_Center: {x: -0.0000009536743, y: 0.015, z: 0}
 --- !u!4 &2118093618 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 56c525059b1768246b7969b086608ce7, type: 3}
@@ -42856,6 +45053,10 @@ PrefabInstance:
     - target: {fileID: 8276625273990236846, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
       propertyPath: m_Name
       value: Soda Can Orange Crushed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8276625273990236846, guid: aa391fa7c7d49314785fa3f647c03048, type: 3}
+      propertyPath: m_TagString
+      value: Trash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -42965,6 +45166,32 @@ Transform:
   - {fileID: 506066531}
   m_Father: {fileID: 537568225}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2124664888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bac9f78242bf6e84f8ce016baa05b5b8, type: 3}
+  m_PrefabInstance: {fileID: 1568741359}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2124664891
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124664888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16532224, y: 0.04, z: 0.19089769}
+  m_Center: {x: 0.0000076293945, y: 0.01999994, z: 0}
 --- !u!1 &2124843600
 GameObject:
   m_ObjectHideFlags: 0
@@ -62838,8 +65065,8 @@ Transform:
   - {fileID: 3970611637464537227}
   - {fileID: 784417300168014706}
   - {fileID: 1267612085}
-  - {fileID: 1447972972}
   - {fileID: 1564084625}
+  - {fileID: 1107610333}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8183922264951278752
@@ -64500,7 +66727,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8180355760613871858}
   - component: {fileID: 8506401688207791519}
-  - component: {fileID: 556163525}
+  - component: {fileID: 8848912004233398857}
+  - component: {fileID: 8848912004233398858}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -64508,6 +66736,41 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8848912004233398857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848912004233398856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a05a9dc8ea61e4db3cbf60b00f1f23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 15
+  rotationSpeed: 80
+--- !u!65 &8848912004233398858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8848912004233398856}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8862081450329117904
 GameObject:
   m_ObjectHideFlags: 0
@@ -65333,23 +67596,5 @@ SceneRoots:
   - {fileID: 720920301}
   - {fileID: 543450653328646433}
   - {fileID: 2098746153}
-  - {fileID: 1924312557}
-  - {fileID: 189394457}
-  - {fileID: 313475260}
-  - {fileID: 1630648246}
-  - {fileID: 2025859165}
-  - {fileID: 732322611}
-  - {fileID: 291264042}
-  - {fileID: 1550360587}
-  - {fileID: 258710473}
-  - {fileID: 1199552493}
-  - {fileID: 265835576}
-  - {fileID: 1170395733}
-  - {fileID: 64581795}
-  - {fileID: 2093385011}
-  - {fileID: 1793328779}
-  - {fileID: 1428324322}
-  - {fileID: 2075167250}
-  - {fileID: 73554638}
   - {fileID: 2054967536}
   - {fileID: 1762080952}
