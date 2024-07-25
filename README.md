@@ -24,6 +24,9 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 - Macera türü oyun sevenler
 - Sürükleyici hikaye sevenler
 - 3-65 yaş arası kullanıcılar
+## Oyunun Hikayesi
+- deneme
+- deneme
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 —-
