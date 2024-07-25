@@ -1,27 +1,43 @@
+
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
+
+
 
 public class CharacterCollision : MonoBehaviour
 {
     public int scorePerCollision = 10;
-    public TMP_Text scoreTextMeshPro;
+    public Text countText;
+    private int objectCount;
+
     public int score = 0;
-    private void OnTriggerEnter(Collider collision)
+    void Start()
+    {
+        objectCount = 0; // Baþlangýçta toplanan obje sayýsýný sýfýrla
+        UpdateCountText(); // Baþlangýçta metin kutusunu güncelle
+    }
+    void OnCollisionEnter(Collision collision)
     {
         // Karakter çöple çarpýþtýðýnda bu metot çaðrýlýr.
         // Collision, çöp objesini temsil eden collider bileþenidir.
 
-        if (collision.CompareTag("Trash")) // Çarpýþan obje "Trash" etiketine sahipse
+        if (collision.gameObject.CompareTag("Trash")) 
         {
             Destroy(collision.gameObject); // Çöpü yok et
             IncreaseScore(); // Skoru artýr
+            objectCount++; // Toplanan obje sayýsýný bir artýr
+            UpdateCountText(); // Metin kutusunu güncelle
         }
+    }
+    void UpdateCountText()
+    {
+        countText.text = "Toplanan Objeler: " + objectCount.ToString(); // Metin kutusunu güncelle
     }
 
     void IncreaseScore()
     {
         score += scorePerCollision;
-        scoreTextMeshPro.text = "Score: " + score.ToString();
+        
         // Skoru artýran kod buraya gelecek
         // Örneðin bir UIManager üzerinden skoru güncelleyebiliriz
 
@@ -29,4 +45,3 @@ public class CharacterCollision : MonoBehaviour
         // UIManager.Instance.UpdateScoreText(); // Skor textini günceller
     }
 }
-
