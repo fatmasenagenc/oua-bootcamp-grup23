@@ -2,6 +2,14 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
+    public AudioClip startSound; // Çalýnacak ses efekti
+    private AudioSource audioSource; // Ses kaynaðý
+    private void Start()
+    {
+        audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.clip = startSound;
+        audioSource.Play();
+    }
     public float moveSpeed = 5f; // Hareket hýzý
     public float rotationSpeed = 100f; // Dönüþ hýzý
 
