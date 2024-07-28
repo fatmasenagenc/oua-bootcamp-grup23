@@ -15,14 +15,14 @@ public class playerInputHandler : MonoBehaviour
     [SerializeField] private string look="Look";
     [SerializeField] private string jump="Jump";
     [SerializeField] private string sprint="Sprint";
-    [SerializeField] private string swiming="Swiming";
+    // [SerializeField] private string swiming="Swiming";
 
     private InputAction moveAction;
     private InputAction lookAction;
     private InputAction jumpAction; 
     private InputAction sprintAction;   
 
-    private InputAction swimingAction;
+    // private InputAction swimingAction;
 
 
     public Vector2 MoveInput { get; private set; }
@@ -30,8 +30,8 @@ public class playerInputHandler : MonoBehaviour
     public bool JumpTriggered { get; private set; }
     public float SprintValue { get; private set; }
 
-    public InputAction SwimingDown { get; private set; }
-    public InputAction SwimingUp { get; private set; }
+    // public InputAction SwimingDown { get; private set; }
+    // public InputAction SwimingUp { get; private set; }
 
 
     public static playerInputHandler Instance { get; private set; }
@@ -50,8 +50,8 @@ public class playerInputHandler : MonoBehaviour
         lookAction = playerControls.FindActionMap(actionMapName).FindAction(look);
         jumpAction = playerControls.FindActionMap(actionMapName).FindAction(jump);
         sprintAction = playerControls.FindActionMap(actionMapName).FindAction(sprint);
-        SwimingDown = playerControls.FindActionMap(actionMapName).FindAction(swiming);
-        SwimingUp = playerControls.FindActionMap(actionMapName).FindAction(swiming);
+        // SwimingDown = playerControls.FindActionMap(actionMapName).FindAction(swiming);
+        // SwimingUp = playerControls.FindActionMap(actionMapName).FindAction(swiming);
         RegisterInputActions();
     }
 
