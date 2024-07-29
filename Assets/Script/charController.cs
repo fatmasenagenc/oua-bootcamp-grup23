@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 public class charController : MonoBehaviour
 {
@@ -21,10 +22,15 @@ public class charController : MonoBehaviour
     private Vector3 currentMovement;
     private float verticalLookRotation;
 
+    private Quaternion lastRotation;
+
+    private bool isSwimming = false;
+
     private void Awake(){
         charCont = GetComponent<CharacterController>();
         mainCamera = GetComponentInChildren<Camera>();
         inputHandler = GetComponent<playerInputHandler>();
+        lastRotation = transform.rotation;
     }
     void Update()
     {
@@ -32,20 +38,36 @@ public class charController : MonoBehaviour
         HandleRotation();
     }
 
+    void OnTriggerEnter(Collider other){
+        if(other.gameObject.tag == "Water"){
+           isSwimming = true;
+        }
+    }
+    void OnTriggerExit(Collider other){
+        if(other.gameObject.tag == "Water"){
+            isSwimming = false;
+
+        }
+    }
     void HandleMovement(){
         float speed = walkSpeed * (inputHandler.SprintValue > 0 ? sprintMultiplier : 1.0f);
         Vector3 inputDirection = new Vector3(inputHandler.MoveInput.x, 0f, inputHandler.MoveInput.y);
         Vector3 worldDirection = transform.TransformDirection(inputDirection);
         worldDirection.Normalize();
-
+    
         currentMovement.x = worldDirection.x * speed;
-        currentMovement.y = worldDirection.y * speed;
+        if(isSwimming){
+            currentMovement.y = worldDirection.y * speed;
+        }
+        else{
+            currentMovement.y = -1;
+        }
         currentMovement.z = worldDirection.z * speed;
-
+    
         charCont.Move(currentMovement * Time.deltaTime);
         // HandleJumping();
         // HandleSwimming();
-
+    
     }
 
     // void HandleSwimming(){
@@ -71,9 +93,15 @@ public class charController : MonoBehaviour
     void HandleRotation()
     {
     float mouseXRotaion = inputHandler.LookInput.x * mouseSensitivity;
-    transform.Rotate(0, mouseXRotaion, 0);
     float mouseYRotation = inputHandler.LookInput.y * mouseSensitivity;
-    transform.Rotate(-mouseYRotation, 0, 0);
+    transform.Rotate(0, mouseXRotaion, 0);
+        if(isSwimming){
+        
+        transform.Rotate(-mouseYRotation, 0, 0);
+        }
+        else{
+            transform.Rotate(0, -mouseYRotation, 0);
+        }
 
     verticalLookRotation += inputHandler.LookInput.y * mouseSensitivity;
     verticalLookRotation = Mathf.Clamp(verticalLookRotation, -upDownRange, upDownRange);
