@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using Cinemachine;
 public class charController : MonoBehaviour
 {
     [Header("Movement Speeds")]
@@ -17,7 +18,7 @@ public class charController : MonoBehaviour
      [SerializeField] private float upDownRange = 85.0f;
 
     private CharacterController charCont;
-    private Camera mainCamera;
+    private CinemachineFreeLook mainCamera;
     private playerInputHandler inputHandler;
     private Vector3 currentMovement;
     private float verticalLookRotation;
@@ -28,7 +29,7 @@ public class charController : MonoBehaviour
 
     private void Awake(){
         charCont = GetComponent<CharacterController>();
-        mainCamera = GetComponentInChildren<Camera>();
+        mainCamera = GetComponentInChildren<CinemachineFreeLook>();
         inputHandler = GetComponent<playerInputHandler>();
         lastRotation = transform.rotation;
     }
@@ -41,6 +42,9 @@ public class charController : MonoBehaviour
     void OnTriggerEnter(Collider other){
         if(other.gameObject.tag == "Water"){
            isSwimming = true;
+        }
+        if(other.gameObject.tag == "Enemy"){
+            Destroy(gameObject);
         }
     }
     void OnTriggerExit(Collider other){
