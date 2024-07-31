@@ -45,4 +45,3 @@ public class CharacterCollision : MonoBehaviour
         // UIManager.Instance.UpdateScoreText(); // Skor textini günceller
     }
 }
-
