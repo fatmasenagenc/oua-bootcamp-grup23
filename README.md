@@ -24,6 +24,8 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 - Macera türü oyun sevenler
 - Sürükleyici hikaye sevenler
 - 3-65 yaş arası kullanıcılar
+## Oyunun Hikayesi
+Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdiği minik kardeşiyle birlikte denizin derinliklerindeki kirlilikle mücadele ediyor ve yaşam alanlarının temiz kalması için ellerinden geleni yapıyorlardı. Bir gün aniden bir akıntı geldi ve minik kardeşi bir poşete sıkışmış bir halde sürüklenerek gözden kayboldu. Shelly kardeşini aramaktan bitap düşmüş bir halde yüzerken birden karşısında oldukça yaşlı bir balina gördü. Yavaşça yaklaştı ve  "Merhaba, burayı nasıl bulduğumu ben de bilmiyorum ama kardeşimi arıyorum. Bir poşete sıkıştı ve okyanusta sürüklendi.Acaba .. ona rastladınız mı ? " dedi umutla. Balina Neptune herkesin çok sevdiği ve saygı duyduğu bilgeydi. "Merhaba evlat, evet, bir poşete sıkışmış ve zor yüzen bir kaplumbağa gördüm. Onun yanına gidecektim ancak tam o esnada yine akıntıya kapıldı ve şu gördüğün su altında kalmış köydeki binaların birine sürüklendi sanırım." dedi ve devam etti "Şu deniz kirliliği... benim gibi yaşlıların da, siz gençlerin de, herkesin kabusu. bu köy de su seviyesi yükselince su altında kaldı ve bir sürü çöpü beraberinde getirdi. ben toplamaya çalışıyorum fakat büyük olduğum için herşeye erişemiyorum" dedi.Shelly de ona öncesinde kardeşiyle birlikte kirlilikle mücadele ettiğini sonrasında başına bu talihsiz olayın geldiğini anlatınca Balina Neptune, Shelly’ye yaklaştı ve ona yardım teklif etti . Shelly’nin cesaretine hayran kaldı. “Senin gibi genç bir kaplumbağa, hem kardeşinin peşinden buraya gelir hem de çöpleri temizlemeye yardım eder. Sen artık bir Shellback’sin!” dedi ve Shelly’ye bu gurur verici unvanı verdi. Shelly the Shellback, Neptune ile birlikte su altındaki köydeki çöpleri aramaya başladı. Deniz kirliliği, herkesin kabusuydu. Balina, Shelly’ye minnettarlıkla baktı. “Şimdi hadi işe koyulalım. Kumların ve tahtaların arasında kalmış bir sürü çöp var. Belki kardeşini de bulabiliriz!” Ve böylece Shelly the Shellback ve Neptune, denizin altındaki çöpleri temizlemek için birlikte çalışmaya başladılar. Bu, hem Shelly’nin macerası hem de deniz kirliliğiyle mücadele hikayesiydi.Günler sonra Neptune " Heyy! Merhaba minik ! diye seslendi. Bu oydu ShellBack'in kardeşi ! Shellback ve kardeşi Stormchaser birbirlerine kocaman sarıldılar. Sonunda Shelly'in kardeşi bulunmuş Neptune ise ona tehlikelere karşı cesur kaplumbağa anlamına gelen "Shelly Stormchaser" adını verdi .Şimdi ise üç kahraman hayatlarını kirliliğe karşı mücadale etmeye adamak için işe koyuldu.
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 —-
@@ -36,7 +38,7 @@ Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve karde�
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 
-
+..
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
 ![Sprint 1 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/15haziran.png)
 
