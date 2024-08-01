@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 public class charController : MonoBehaviour
 {
     [Header("Movement Speeds")]
@@ -43,8 +44,16 @@ public class charController : MonoBehaviour
         if(other.gameObject.tag == "Water"){
            isSwimming = true;
         }
-        if(other.gameObject.tag == "Enemy"){
-            Destroy(gameObject);
+        // if(other.gameObject.tag == "Enemy"){
+        //     Destroy(gameObject);
+        // }
+        if (other.gameObject.tag == "Enemy")
+        {
+            Time.timeScale = 0f;
+        }
+        if(other.gameObject.tag == "Ocean"){
+            Debug.Log("You Win");
+            // SceneManager.LoadScene("Scene2");
         }
     }
     void OnTriggerExit(Collider other){
