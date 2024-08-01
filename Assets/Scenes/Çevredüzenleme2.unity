@@ -8471,7 +8471,7 @@ Transform:
   m_GameObject: {fileID: 1404582417}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.844, y: 24.05, z: -1.1}
+  m_LocalPosition: {x: -2.844, y: 21.33, z: -1.1}
   m_LocalScale: {x: 202.79, y: 208.1, z: 200}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11910,7 +11910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6094b476d4c244b2eae3d324f562fde7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 20
+  walkSpeed: 15
   sprintMultiplier: 4
   jumpForce: 2
   gravity: 9.18
@@ -12011,6 +12011,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scorePerCollision: 10
   countText: {fileID: 1249307820}
+  winMessageText: {fileID: 0}
   score: 0
 --- !u!54 &1805380438
 Rigidbody:
