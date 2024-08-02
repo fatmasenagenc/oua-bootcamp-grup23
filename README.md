@@ -120,11 +120,11 @@ Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdi
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 
 - **Daily Scrum**:  Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp ve discord üzerinden sesli grup sohbeti şeklinde yapıldı. Sprint 3 için Scrum toplantısı örneği jpeg  olarak Readme'de tarafımızdan paylaşılmaktadır.
- ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_1.png))
-- ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_3.png))
-- - ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_4.png))
-  - - ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_5.png))
-    - - ![Toplantı Görselleri][https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_7.png]
+ ![Toplantı Görselleri]((https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_1.png))
+- ![Toplantı Görselleri]((https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_3.png))
+- - ![Toplantı Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_4.png))
+  - - ![Toplantı Görselleri]((https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_5.png))
+    - - ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg])
 
 
 - **Sprint Review**: 
