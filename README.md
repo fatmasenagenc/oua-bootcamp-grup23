@@ -137,4 +137,6 @@ Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdi
 
 - **Oyun Görselleri**:
 
--
+-![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/oyunici1.png)
+-![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/oyunici2.png)
+-![Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/oyunici3png)
