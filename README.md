@@ -11,7 +11,7 @@ Takım: Grup 23
 - Emre Keyif: Team Member/Developer
 - Eray Artıışık: Team Member/Developer
 ## Ürün İsmi
-—Story of Ocean : Shelly(Geçici)—
+—Shelly the Shellback—
 ## Ürün Açıklaması
 Gözünü bir şehir plajında açan küçük deniz kaplumbağasının ve kardeşinin başından geçen efsanevi bir macera.
 ## Ürün Özellikleri
@@ -105,3 +105,35 @@ Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdi
 - ![Oyun Videosu](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/char1.png)
 - [Oyun Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/charMove2.mp4)
 - ![Oyun Videosu](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/char2.png)
+
+
+
+
+---
+
+# Sprint 3
+**Sprint Notları**: Level tasarımları tamamlandı.Trello görevleri tamamlandı. Oyunun ismine karar verildi.Daily Scrum toplantılarını Whatsapp da ve discord'ta tamamlandı.
+**Sprint içinde tamamlanması tahmin edilen puan**: 100 puan
+**Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken tahmini 300 puanlık backlog oluşacağını öngörüyoruz. Toplam üç sprint düşünüldüğünde, her sprintte ortalama 100 puan tamamlamayı hedefliyoruz.
+**Sprint içinde tamamlanan puan**: 90 puan
+## Product Backlog URL
+[Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
+
+- **Daily Scrum**:  Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp ve discord üzerinden sesli grup sohbeti şeklinde yapıldı. Sprint 3 için Scrum toplantısı örneği jpeg  olarak Readme'de tarafımızdan paylaşılmaktadır.
+
+
+- **Sprint Review**: 
+- **Sprint Review katılımcıları**: Bütün ekip
+- **Alınan kararlar**: Ekip içindeki görev dağılımı ve sorumluluklar tekrar gözden geçirilecek. Ekibin daha verimli çalışabilmesi için ekip içi iletişim arttırılacak. Ekip içinde daha fazla yardımlaşma ve dayanışma sağlanacak. Ekibin daha iyi bir şekilde çalışabilmesi için ekip içi toplantılar daha sık yapılacak.
+
+- **Sprint Retrospective:**
+  - Takım içindeki ekip üyelerin günlük yaşamındaki istenmeyen zorluklardan dolayı oluşan aksaklıkların giderilmesi için ekip içi toplantılar daha sık yapılacak. Ekip içindeki görev dağılımına destek olunması için ekip içi yardımlaşma ve dayanışma sağlanacak.
+- **Diğer Notlar**: Ekip olarak hem mental hemde fiziksel zorluklar yaşadık. Bu zorluklarımızı aşmak için ekip içi daha eğlenceli etkinlikler yapmaya karar verdik. Bu etkinliklerimiz sayesinde ekip içi iletişimimizi arttırmayı hedefliyoruz. 
+
+- **Oyun Görselleri**:
+
+- ![Oyun Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_1.png))
+- ![Oyun Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_3.png))
+- - ![Oyun Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_4.png))
+  - - ![Oyun Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_5.png))
+    - - ![Oyun Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_7.png))
