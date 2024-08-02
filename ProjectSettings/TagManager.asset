@@ -8,6 +8,7 @@ TagManager:
   - UnWater
   - Trash
   - Enemy
+  - Ocean
   layers:
   - Default
   - TransparentFX

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using Cinemachine;
+using UnityEngine.SceneManagement;
 public class charController : MonoBehaviour
 {
     [Header("Movement Speeds")]
@@ -10,8 +11,8 @@ public class charController : MonoBehaviour
     [SerializeField] private float sprintMultiplier = 10.0f;
 
     [Header("Jump Parameters")]
-    [SerializeField] private float jumpForce = 2.0f;
-    [SerializeField] private float gravity = 9.18f;
+    [SerializeField] private float jumpForce ;
+    [SerializeField] private float gravity ;
 
     [Header("Look Sensitivity")]
      [SerializeField] private float mouseSensitivity = 2.0f;
@@ -23,15 +24,13 @@ public class charController : MonoBehaviour
     private Vector3 currentMovement;
     private float verticalLookRotation;
 
-    private Quaternion lastRotation;
-
     private bool isSwimming = false;
 
     private void Awake(){
         charCont = GetComponent<CharacterController>();
         mainCamera = GetComponentInChildren<CinemachineFreeLook>();
         inputHandler = GetComponent<playerInputHandler>();
-        lastRotation = transform.rotation;
+      
     }
     void Update()
     {
@@ -43,8 +42,16 @@ public class charController : MonoBehaviour
         if(other.gameObject.tag == "Water"){
            isSwimming = true;
         }
-        if(other.gameObject.tag == "Enemy"){
-            Destroy(gameObject);
+        // if(other.gameObject.tag == "Enemy"){
+        //     Destroy(gameObject);
+        // }
+        if (other.gameObject.tag == "Enemy")
+        {
+            Time.timeScale = 0f;
+        }
+        if(other.gameObject.tag == "Ocean"){
+            Debug.Log("You Win");
+            // SceneManager.LoadScene("Scene2");
         }
     }
     void OnTriggerExit(Collider other){
@@ -103,9 +110,7 @@ public class charController : MonoBehaviour
         
         transform.Rotate(-mouseYRotation, 0, 0);
         }
-        else{
-            transform.Rotate(0, -mouseYRotation, 0);
-        }
+
 
     verticalLookRotation += inputHandler.LookInput.y * mouseSensitivity;
     verticalLookRotation = Mathf.Clamp(verticalLookRotation, -upDownRange, upDownRange);
