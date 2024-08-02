@@ -16,16 +16,21 @@ public class NPCInteraction : MonoBehaviour
 
     void Update()
     {
-        if (isPlayerNearby && Input.GetKeyDown(KeyCode.E))
+        //&& Input.GetKeyDown(KeyCode.E)
+        if (isPlayerNearby)
         {
-            if (isDialogueOpen)
+            OpenDialogue();
+            /*if (isDialogueOpen)
             {
                 CloseDialogue();
             }
             else
             {
                 OpenDialogue();
-            }
+            }*/
+        } else
+        {
+            CloseDialogue();
         }
     }
 

@@ -1,6 +1,7 @@
 
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 
@@ -33,14 +34,16 @@ public class CharacterCollision : MonoBehaviour
             objectCount++; // Toplanan obje sayýsýný bir artýr
             UpdateCountText(); // Metin kutusunu güncelle
         }
-        if (objectCount>120)
+        if (objectCount == 10)
         {
-            winMessageText.enabled = true;
+            //winMessageText.enabled = true;
+            SceneManager.LoadScene(3);
+
         }
     }
     void UpdateCountText()
     {
-        countText.text = "Toplanan Objeler: " + objectCount.ToString(); // Metin kutusunu güncelle
+        countText.text = "Toplanan Çöpler: " + objectCount.ToString(); // Metin kutusunu güncelle
     }
 
     void IncreaseScore()
@@ -52,5 +55,10 @@ public class CharacterCollision : MonoBehaviour
 
         // UIManager.Instance.IncreaseScore(1); // UIManager scriptinde IncreaseScore fonksiyonu çaðrýlýr
         // UIManager.Instance.UpdateScoreText(); // Skor textini günceller
+    }
+
+    public void Replay()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

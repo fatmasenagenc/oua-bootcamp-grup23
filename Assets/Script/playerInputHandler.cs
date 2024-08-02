@@ -38,13 +38,13 @@ public class playerInputHandler : MonoBehaviour
 
 
     private void Awake(){
-        if(Instance == null){
+        /*if(Instance == null){
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else{
             Destroy(gameObject);
-        }
+        }*/
 
         moveAction = playerControls.FindActionMap(actionMapName).FindAction(move);
         lookAction = playerControls.FindActionMap(actionMapName).FindAction(look);

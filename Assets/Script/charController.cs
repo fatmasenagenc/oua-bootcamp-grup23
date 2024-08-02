@@ -50,8 +50,7 @@ public class charController : MonoBehaviour
             Time.timeScale = 0f;
         }
         if(other.gameObject.tag == "Ocean"){
-            Debug.Log("You Win");
-            // SceneManager.LoadScene("Scene2");
+            SceneManager.LoadScene(2);
         }
     }
     void OnTriggerExit(Collider other){

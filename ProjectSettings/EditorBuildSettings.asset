@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: 0738bdb77d8747949ba01e5391f7c492
+  - enabled: 1
+    path: Assets/Scenes/chapter1.unity
+    guid: e1d1a875122af8441a8cedf807cf8829
+  - enabled: 1
+    path: "Assets/Scenes/\xC7evred\xFCzenleme2.unity"
+    guid: b71219bd0fa51de4781e5bb10a93f3a5
+  - enabled: 1
+    path: Assets/Scenes/son_sahne.unity
+    guid: 73821520293ad8444aaa52dbc9457730
   m_configObjects: {}
