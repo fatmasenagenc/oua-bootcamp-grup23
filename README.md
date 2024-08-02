@@ -124,7 +124,7 @@ Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdi
 - ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_3.png))
 - - ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_4.png))
   - - ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_5.png))
-    - - ![Toplantı Görselleri]([https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_7.png))
+    - - ![Toplantı Görselleri][https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/balina1.jpeg](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_7.png]
 
 
 - **Sprint Review**: 
