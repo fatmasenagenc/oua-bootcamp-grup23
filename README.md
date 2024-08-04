@@ -37,6 +37,8 @@ Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdi
 - **Backlog düzeni ve Story seçimleri**: User Storylerimizi onlara özel bir liste içerisinde trello kartları olarak tutuyoruz. Her bir story için renk kodlu bir label oluşturduk. Backlogdaki taskleri de hangi story’e aitlerse o storynin labelı ile işaretliyoruz. Ekip üyeleri üzerinde çalışacakları taskleri Üzerinde Çalışılanlar listesine taşıyor.
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
+Trello görsellleri
+Screenshot_2024-08-04-23-57-36-66_40deb401b9ffe8e1df2f1cc5ba480b12
 
 ..
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
@@ -77,6 +79,8 @@ Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdi
 **Sprint içinde tamamlanan puan**: 90 puan
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
+trello görsel 
+Screenshot_2024-08-04-23-57-36-66_40deb401b9ffe8e1df2f1cc5ba480b12
 
 - **Daily Scrum**: Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp üzerinden sesli grup sohbeti şeklinde yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
 ![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti1.jpeg)
@@ -118,7 +122,9 @@ Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdi
 **Sprint içinde tamamlanan puan**: 100 puan
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
+Trello görsel 
 
+Screenshot_2024-08-04-23-57-36-66_40deb401b9ffe8e1df2f1cc5ba480b12
 - **Daily Scrum**:  Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp ve discord üzerinden sesli grup sohbeti şeklinde yapıldı. Sprint 3 için Scrum toplantısı örneği jpeg  olarak Readme'de tarafımızdan paylaşılmaktadır.
 ![Toplantı Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_1.png)
 ![Toplantı Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_3.png)
