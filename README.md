@@ -8,7 +8,7 @@ Takım: Grup 23
 - Emre Onur Kalafat: Scrum Master
 - Fatma Sena Genç: Product Owner
 - Fadime Nisa Kurman: Team Member/Developer
-- Emre Keyif: Team Member/Developer
+- Emre Keyf: Team Member/Developer
 - Eray Artıışık: Team Member/Developer
 ## Ürün İsmi
 —Shelly the Shellback—
@@ -38,7 +38,10 @@ Shelly, okyanusun derinliklerinde yüzen bir kaplumbağaydı.Yanında çok sevdi
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 Trello görsellleri
-Screenshot_2024-08-04-23-57-36-66_40deb401b9ffe8e1df2f1cc5ba480b12
+![trello2](https://github.com/user-attachments/assets/fcf7a058-c209-4f48-a6d2-362c5529e888)
+![trello1](https://github.com/user-attachments/assets/345f95b1-1c1a-403a-804b-7237f894dbe2)
+
+
 
 ..
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Discord üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
@@ -80,7 +83,10 @@ Screenshot_2024-08-04-23-57-36-66_40deb401b9ffe8e1df2f1cc5ba480b12
 ## Product Backlog URL
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 trello görsel 
-Screenshot_2024-08-04-23-57-36-66_40deb401b9ffe8e1df2f1cc5ba480b12
+![trello1](https://github.com/user-attachments/assets/ee72b43a-43f6-44e1-9948-1673d537669a)
+![trello2](https://github.com/user-attachments/assets/7ddd92f8-3f9a-4b23-b332-33bcba70033d)
+
+
 
 - **Daily Scrum**: Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp üzerinden sesli grup sohbeti şeklinde yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:
 ![Sprint 2 Daily Scrum Chats](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_alıntıları/toplanti1.jpeg)
@@ -124,7 +130,10 @@ Screenshot_2024-08-04-23-57-36-66_40deb401b9ffe8e1df2f1cc5ba480b12
 [Trello Backlog Board](https://trello.com/b/yS9sFmJm/oua-bootcamp-2024)
 Trello görsel 
 
-Screenshot_2024-08-04-23-57-36-66_40deb401b9ffe8e1df2f1cc5ba480b12
+![trello2](https://github.com/user-attachments/assets/2ec921f1-ee6b-4635-9e58-aebc2dfee33e)
+![trello1](https://github.com/user-attachments/assets/3bed6c56-b867-4300-a1dc-97f958d02277)
+
+
 - **Daily Scrum**:  Daily Scrum toplantılarının günlük yaşam koşullarından dolayı Whatsapp ve discord üzerinden sesli grup sohbeti şeklinde yapıldı. Sprint 3 için Scrum toplantısı örneği jpeg  olarak Readme'de tarafımızdan paylaşılmaktadır.
 ![Toplantı Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_1.png)
 ![Toplantı Görselleri](https://github.com/fatmasenagenc/oua-bootcamp-grup23/blob/main/ekran_al%C4%B1nt%C4%B1lar%C4%B1/konusma_3.png)
